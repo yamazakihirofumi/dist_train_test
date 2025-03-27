@@ -126,74 +126,44 @@ def average_gradients(model):
         param.grad.data /= size
 
 # ----- Training Function -----
-
-def setup(rank, world_size, master_addr='127.0.0.1', master_port='29500'):
-    """Initialize the distributed environment"""
-    os.environ['MASTER_ADDR'] = master_addr
-    os.environ['MASTER_PORT'] = master_port
+def run(rank, size):
+    # Set device based on availability
+    device = torch.device(f"cuda:{rank}" if torch.cuda.is_available() else "cpu")
+    torch.manual_seed(1234 + rank)
     
-    # For multi-machine training, use these instead:
-    # os.environ['NODE_RANK'] = str(rank // num_gpus_per_node)  # Machine index
-    # os.environ['WORLD_SIZE'] = str(world_size)
+    train_set, bsz = partition_dataset()
+    test_loader = get_test_loader() if rank == 0 else None
     
-    dist.init_process_group(
-        backend='nccl' if torch.cuda.is_available() else 'gloo',
-        rank=rank,
-        world_size=world_size
-    )
-
-def cleanup():
-    dist.destroy_process_group()
-
-def run(rank, world_size, master_addr):
-    setup(rank, world_size, master_addr)
-    
-    device = torch.device(f'cuda:{rank % torch.cuda.device_count()}' 
-                         if torch.cuda.is_available() else 'cpu')
-    
-    # Model setup - wrap with DistributedDataParallel
-    model = Net().to(device)
-    model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[device])
-    
-    # Data loading with distributed sampler
-    train_dataset = datasets.MNIST(
-        './data',
-        train=True,
-        transform=transforms.Compose([
-            transforms.ToTensor(),
-            transforms.Normalize((0.1307,), (0.3081,))
-        ]))
-    
-    train_sampler = torch.utils.data.distributed.DistributedSampler(
-        train_dataset,
-        num_replicas=world_size,
-        rank=rank
-    )
-    
-    train_loader = torch.utils.data.DataLoader(
-        train_dataset,
-        batch_size=128,
-        sampler=train_sampler
-    )
-    
+    model = Net().to(device)  # Move model to device first
     optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.5)
     
     for epoch in range(10):
-        train_sampler.set_epoch(epoch)
         model.train()
+        epoch_loss = 0.0
         
-        for data, target in train_loader:
+        for data, target in train_set:
+            # Explicitly move data to the same device as model
             data, target = data.to(device), target.to(device)
+            
             optimizer.zero_grad()
             output = model(data)
             loss = F.nll_loss(output, target)
+            epoch_loss += loss.item()
             loss.backward()
+            average_gradients(model)
             optimizer.step()
         
         if rank == 0:
-            print(f'Epoch {epoch}, Loss: {loss.item():.4f}')
-    
-    cleanup()
+            avg_loss = epoch_loss / len(train_set)
+            print(f'Epoch {epoch}, Loss: {avg_loss:.4f}')
+            
+            # Test will now handle device transfer automatically
+            test_loss, accuracy = test(model, test_loader)
+            print(f'Test set: Average loss: {test_loss:.4f}, Accuracy: {accuracy:.2f}%')
+            
+            #No need to save checkpoint but just in case
+            #save_checkpoint(model, optimizer, epoch, f'model_epoch_{epoch}.pth')
+
 
 
 # ----- Process Initialization -----
@@ -216,13 +186,5 @@ def main():
     for p in processes:
         p.join()
 
-
 if __name__ == "__main__":
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--rank', type=int)
-    parser.add_argument('--world-size', type=int)
-    parser.add_argument('--master-addr', type=str, default='127.0.0.1')
-    args = parser.parse_args()
-    
-    run(args.rank, args.world_size, args.master_addr)
+    main()
