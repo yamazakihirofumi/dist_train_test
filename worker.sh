@@ -7,6 +7,8 @@ if [ $# -lt 1 ]; then
     exit 1
 fi
 
+#python distributed_mnist.py --rank 1 --world-size 2  --master-addr 192.168.1.80 --backend gloo
+
 # Configuration
 MASTER_ADDR=$1  # Get from command line argument
 MASTER_PORT=29500

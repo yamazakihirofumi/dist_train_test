@@ -26,7 +26,6 @@ class Net(nn.Module):
 
 # ----- Setup and Cleanup Functions -----
 def setup(rank, world_size, master_addr='127.0.0.1', backend='gloo'):
-    """Initialize distributed training with connection status"""
     os.environ['MASTER_ADDR'] = master_addr
     os.environ['MASTER_PORT'] = os.getenv('MASTER_PORT', '29500')
     
@@ -38,12 +37,14 @@ def setup(rank, world_size, master_addr='127.0.0.1', backend='gloo'):
     else:
         print(f"Worker node (rank {rank}) attempting to connect...")
     
-    # Initialize process group with a timeout of 60 seconds
+    # More explicit initialization
+    store = dist.TCPStore(master_addr, 29500, world_size, rank == 0)
     dist.init_process_group(
-        backend=backend,  # Use the backend passed as parameter
+        backend=backend,
+        store=store,
         rank=rank,
         world_size=world_size,
-        timeout=datetime.timedelta(seconds=60)  # 60 second timeout
+        timeout=datetime.timedelta(seconds=120)
     )
     
     # Confirm connection

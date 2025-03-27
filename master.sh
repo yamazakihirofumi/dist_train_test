@@ -7,6 +7,10 @@ WORLD_SIZE=2  # Total number of nodes (master + workers)
 NPROC_PER_NODE=1  # Processes per node (typically 1 per GPU)
 BACKEND="gloo"  # Use "nccl" for multi-GPU setups across machines
 
+
+#python distributed_mnist.py --rank 1 --world-size 2  --master-addr 192.168.1.80 --backend gloo
+
+ 
 # Print configuration
 echo "Starting master node with configuration:"
 echo "Master address: $MASTER_ADDR"
