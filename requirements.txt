@@ -1,0 +1,8 @@
+#Install the cuda tool kit 
+sudo apt install nvidia-cuda-toolkit
+
+#Check if the 
+#nvcc --version
+
+
+conda install astunparse numpy ninja pyyaml mkl mkl-include setuptools cmake cffi typing_extensions 
