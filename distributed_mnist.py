@@ -25,9 +25,19 @@ class Net(nn.Module):
         return F.log_softmax(x, dim=1)
 
 # ----- Setup and Cleanup Functions -----
+# Add this section to the setup function
 def setup(rank, world_size, master_addr='127.0.0.1', backend='gloo'):
+    """Initialize distributed training with connection status"""
     os.environ['MASTER_ADDR'] = master_addr
     os.environ['MASTER_PORT'] = os.getenv('MASTER_PORT', '29500')
+    
+    # Explicitly set network interface for Gloo
+    if rank == 0:
+        os.environ['GLOO_SOCKET_IFNAME'] = 'wlo1'  # Master interface
+        print(f"Master setting GLOO_SOCKET_IFNAME=wlo1")
+    else:
+        os.environ['GLOO_SOCKET_IFNAME'] = 'wlp4s0'  # Worker interface
+        print(f"Worker setting GLOO_SOCKET_IFNAME=wlp4s0")
     
     # Print connection status
     if rank == 0:
@@ -37,22 +47,29 @@ def setup(rank, world_size, master_addr='127.0.0.1', backend='gloo'):
     else:
         print(f"Worker node (rank {rank}) attempting to connect...")
     
-    # More explicit initialization
-    store = dist.TCPStore(master_addr, 29500, world_size, rank == 0)
-    dist.init_process_group(
-        backend=backend,
-        store=store,
-        rank=rank,
-        world_size=world_size,
-        timeout=datetime.timedelta(seconds=120)
-    )
-    
-    # Confirm connection
-    if rank == 0:
-        print(f"\nAll workers connected! World size: {world_size}\n")
-    else:
-        print(f"Worker {rank} successfully connected to master")
+    # Initialize process group
+    try:
+        # Use explicit store for better connection
+        store = dist.TCPStore(master_addr, 29500, world_size, rank == 0, timeout=datetime.timedelta(seconds=120).total_seconds())
+        
+        dist.init_process_group(
+            backend=backend,
+            store=store,
+            rank=rank,
+            world_size=world_size,
+        )
+        
+        # Confirm connection
+        if rank == 0:
+            print(f"\nAll workers connected! World size: {world_size}\n")
+        else:
+            print(f"Worker {rank} successfully connected to master")
+    except Exception as e:
+        print(f"Error initializing process group: {e}")
+        raise
 
+
+    
 def cleanup():
     dist.destroy_process_group()
 

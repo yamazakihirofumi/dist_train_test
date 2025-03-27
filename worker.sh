@@ -7,15 +7,12 @@ if [ $# -lt 1 ]; then
     exit 1
 fi
 
-#python distributed_mnist.py --rank 1 --world-size 2  --master-addr 192.168.1.80 --backend gloo
-
 # Configuration
 MASTER_ADDR=$1  # Get from command line argument
 MASTER_PORT=29500
 WORLD_SIZE=2  # Total number of nodes (master + workers)
-NPROC_PER_NODE=1  # Processes per node (typically 1 per GPU)
 RANK=${2:-1}  # Default to rank 1 if not specified
-BACKEND="gloo"  # Use "nccl" for multi-GPU setups across machines
+BACKEND="gloo"  # Use gloo backend
 
 # Print configuration
 echo "Starting worker node with configuration:"
@@ -23,13 +20,13 @@ echo "Master address: $MASTER_ADDR"
 echo "Master port: $MASTER_PORT"
 echo "World size: $WORLD_SIZE"
 echo "Worker rank: $RANK"
-echo "Processes per node: $NPROC_PER_NODE"
 echo "Backend: $BACKEND"
 echo ""
 
 # Export environment variables
 export MASTER_ADDR
 export MASTER_PORT
+export GLOO_SOCKET_IFNAME=wlp4s0  # Explicitly set interface for worker
 
 # Run the training script for the worker
 echo "Starting worker process..."
