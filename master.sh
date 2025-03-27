@@ -1,32 +1,27 @@
 #!/bin/bash
-# master.sh - Run this on the master node
 
 # Configuration
 MASTER_ADDR=$(hostname -I | awk '{print $1}')  # Auto-get IP
 MASTER_PORT=29500
-WORLD_SIZE=2  # Total number of nodes (master + slaves)
+WORLD_SIZE=2  # Total number of nodes (master + workers)
 NPROC_PER_NODE=1  # Processes per node (typically 1 per GPU)
+BACKEND="gloo"  # Use "nccl" for multi-GPU setups across machines
 
-echo "Master starting at ${MASTER_ADDR}:${MASTER_PORT}"
+# Print configuration
+echo "Starting master node with configuration:"
+echo "Master address: $MASTER_ADDR"
+echo "Master port: $MASTER_PORT"
+echo "World size: $WORLD_SIZE"
+echo "Processes per node: $NPROC_PER_NODE"
+echo "Backend: $BACKEND"
+echo ""
 
-# Cleanup function
-cleanup() {
-    echo "Cleaning up..."
-    pkill -f "python.*distributed_mnist.py"
-    sleep 1
-    echo "Processes killed"
-}
+# Export environment variables
+export MASTER_ADDR
+export MASTER_PORT
 
-# Trap Ctrl-C
-trap cleanup SIGINT
+# Run the training script for rank 0 (master)
+echo "Starting master process..."
+python distributed_mnist.py --rank 0 --world-size $WORLD_SIZE --master-addr $MASTER_ADDR --backend $BACKEND
 
-# Launch training
-python -m torch.distributed.launch \
-    --nproc_per_node=${NPROC_PER_NODE} \
-    --nnodes=${WORLD_SIZE} \
-    --node_rank=0 \
-    --master_addr=${MASTER_ADDR} \
-    --master_port=${MASTER_PORT} \
-    distributed_mnist.py
-
-cleanup
+echo "Master process completed."

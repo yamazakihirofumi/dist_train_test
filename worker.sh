@@ -1,33 +1,36 @@
 #!/bin/bash
-# This scripe run training after the slave node been runned
 
-# Configuration (must match master.sh)
-MASTER_ADDR="192.168.1.80"  
+# Check if master address is provided
+if [ $# -lt 1 ]; then
+    echo "Usage: $0 <master_address> [rank]"
+    echo "Example: $0 192.168.1.100 1"
+    exit 1
+fi
+
+# Configuration
+MASTER_ADDR=$1  # Get from command line argument
 MASTER_PORT=29500
-WORLD_SIZE=2  # Must match master
-NPROC_PER_NODE=1
-NODE_RANK=1   # Increment for each slave (1, 2, etc.)
+WORLD_SIZE=2  # Total number of nodes (master + workers)
+NPROC_PER_NODE=1  # Processes per node (typically 1 per GPU)
+RANK=${2:-1}  # Default to rank 1 if not specified
+BACKEND="gloo"  # Use "nccl" for multi-GPU setups across machines
 
-echo "Slave ${NODE_RANK} connecting to ${MASTER_ADDR}:${MASTER_PORT}"
+# Print configuration
+echo "Starting worker node with configuration:"
+echo "Master address: $MASTER_ADDR"
+echo "Master port: $MASTER_PORT"
+echo "World size: $WORLD_SIZE"
+echo "Worker rank: $RANK"
+echo "Processes per node: $NPROC_PER_NODE"
+echo "Backend: $BACKEND"
+echo ""
 
-# Cleanup function
-cleanup() {
-    echo "Cleaning up..."
-    pkill -f "python.*distributed_mnist.py"
-    sleep 1
-    echo "Processes killed"
-}
+# Export environment variables
+export MASTER_ADDR
+export MASTER_PORT
 
-# Trap Ctrl-C
-trap cleanup SIGINT
+# Run the training script for the worker
+echo "Starting worker process..."
+python distributed_mnist.py --rank $RANK --world-size $WORLD_SIZE --master-addr $MASTER_ADDR --backend $BACKEND
 
-# Launch training
-python -m torch.distributed.launch \
-    --nproc_per_node=${NPROC_PER_NODE} \
-    --nnodes=${WORLD_SIZE} \
-    --node_rank=${NODE_RANK} \
-    --master_addr=${MASTER_ADDR} \
-    --master_port=${MASTER_PORT} \
-    distributed_mnist.py
-
-cleanup
+echo "Worker process completed."

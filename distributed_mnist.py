@@ -1,13 +1,11 @@
 import os
 import torch
 import torch.distributed as dist
-import torch.multiprocessing as mp
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
-from math import ceil
-from random import Random
+import datetime
 
 # ----- Model Definition -----
 class Net(nn.Module):
@@ -26,139 +24,81 @@ class Net(nn.Module):
         x = self.fc2(x)
         return F.log_softmax(x, dim=1)
 
-# ----- Dataset Partitioning Classes -----
-class Partition(object):
-    def __init__(self, data, index):
-        self.data = data
-        self.index = index
-
-    def __len__(self):
-        return len(self.index)
-
-    def __getitem__(self, index):
-        data_idx = self.index[index]
-        return self.data[data_idx]
-
-class DataPartitioner(object):
-    def __init__(self, data, sizes=[0.7, 0.2, 0.1], seed=1234):
-        self.data = data
-        self.partitions = []
-        rng = Random()
-        rng.seed(seed)
-        data_len = len(data)
-        indexes = list(range(data_len))
-        rng.shuffle(indexes)
-
-        for frac in sizes:
-            part_len = int(frac * data_len)
-            self.partitions.append(indexes[:part_len])
-            indexes = indexes[part_len:]
-
-    def use(self, partition):
-        return Partition(self.data, self.partitions[partition])
-
-# ----- Helper Functions -----
-def get_test_loader():
-    test_dataset = datasets.MNIST(
-        './data',
-        train=False,
-        download=True,
-        transform=transforms.Compose([
-            transforms.ToTensor(),
-            transforms.Normalize((0.1307,), (0.3081,))
-        ]))
-    return torch.utils.data.DataLoader(test_dataset, batch_size=128, shuffle=False)
-
-def test(model, test_loader):
-    model.eval()
-    test_loss = 0
-    correct = 0
-    device = next(model.parameters()).device  # Get device from model
-    
-    with torch.no_grad():
-        for data, target in test_loader:
-            data, target = data.to(device), target.to(device)  # Move to same device as model
-            output = model(data)
-            test_loss += F.nll_loss(output, target, reduction='sum').item()
-            pred = output.argmax(dim=1, keepdim=True)
-            correct += pred.eq(target.view_as(pred)).sum().item()
-    
-    test_loss /= len(test_loader.dataset)
-    accuracy = 100. * correct / len(test_loader.dataset)
-    return test_loss, accuracy
-
-
-def save_checkpoint(model, optimizer, epoch, filename):
-    torch.save({
-        'epoch': epoch,
-        'model_state_dict': model.state_dict(),
-        'optimizer_state_dict': optimizer.state_dict(),
-    }, filename)
-
-# ----- Distributed Training Functions -----
-def partition_dataset():
-    dataset = datasets.MNIST(
-        './data',
-        train=True,
-        download=True,
-        transform=transforms.Compose([
-            transforms.ToTensor(),
-            transforms.Normalize((0.1307,), (0.3081,))
-        ]))
-    
-    world_size = dist.get_world_size()
-    bsz = 128 // world_size
-    partition_sizes = [1.0 / world_size] * world_size
-    partition = DataPartitioner(dataset, partition_sizes)
-    partition = partition.use(dist.get_rank())
-    
-    train_set = torch.utils.data.DataLoader(
-        partition,
-        batch_size=bsz,
-        shuffle=False
-    )
-    return train_set, bsz
-
-def average_gradients(model):
-    size = float(dist.get_world_size())
-    for param in model.parameters():
-        dist.all_reduce(param.grad.data, op=dist.ReduceOp.SUM)
-        param.grad.data /= size
-
-# ----- Training Function -----
-
-def setup(rank, world_size, master_addr='127.0.0.1', master_port='29500'):
-    """Initialize the distributed environment"""
+# ----- Setup and Cleanup Functions -----
+def setup(rank, world_size, master_addr='127.0.0.1', backend='gloo'):
+    """Initialize distributed training with connection status"""
     os.environ['MASTER_ADDR'] = master_addr
-    os.environ['MASTER_PORT'] = master_port
+    os.environ['MASTER_PORT'] = os.getenv('MASTER_PORT', '29500')
     
-    # For multi-machine training, use these instead:
-    # os.environ['NODE_RANK'] = str(rank // num_gpus_per_node)  # Machine index
-    # os.environ['WORLD_SIZE'] = str(world_size)
+    # Print connection status
+    if rank == 0:
+        print(f"\nMaster node ready at {os.environ['MASTER_ADDR']}:{os.environ['MASTER_PORT']}")
+        print(f"Using backend: {backend}")
+        print("Waiting for worker nodes to connect...")
+    else:
+        print(f"Worker node (rank {rank}) attempting to connect...")
     
+    # Initialize process group with a timeout of 60 seconds
     dist.init_process_group(
-        backend='nccl' if torch.cuda.is_available() else 'gloo',
+        backend=backend,  # Use the backend passed as parameter
         rank=rank,
-        world_size=world_size
+        world_size=world_size,
+        timeout=datetime.timedelta(seconds=60)  # 60 second timeout
     )
+    
+    # Confirm connection
+    if rank == 0:
+        print(f"\nAll workers connected! World size: {world_size}\n")
+    else:
+        print(f"Worker {rank} successfully connected to master")
 
 def cleanup():
     dist.destroy_process_group()
 
-def run(rank, world_size, master_addr):
-    setup(rank, world_size, master_addr)
+# ----- Training Function -----    
+def run(rank, world_size, master_addr='127.0.0.1', backend='gloo'):
+    """Distributed training function"""
+    print(f"Rank {rank}: Initializing connection to master at {master_addr}...")
+    setup(rank, world_size, master_addr, backend)
     
-    device = torch.device(f'cuda:{rank % torch.cuda.device_count()}' 
-                         if torch.cuda.is_available() else 'cpu')
+    # Select device based on rank and available devices
+    if backend == 'nccl' and torch.cuda.is_available():
+        if torch.cuda.device_count() > 1:
+            # If we have multiple GPUs, assign each rank to a different GPU
+            device_id = rank % torch.cuda.device_count()
+            device = torch.device(f'cuda:{device_id}')
+            print(f"Rank {rank} using GPU {device_id}")
+        else:
+            # With only one GPU, we need to use CPU for one process when testing on one machine
+            if rank == 0:
+                device = torch.device('cuda:0')
+                print(f"Rank {rank} using GPU 0")
+            else:
+                device = torch.device('cpu')
+                print(f"Rank {rank} using CPU (avoiding GPU conflict)")
+    else:
+        # Fall back to CPU if NCCL not used or CUDA not available
+        device = torch.device('cpu')
+        print(f"Rank {rank} using CPU")
     
-    # Model setup - wrap with DistributedDataParallel
+    # Model setup - adjust for CPU or single GPU case
     model = Net().to(device)
-    model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[device])
     
-    # Data loading with distributed sampler
+    if backend == 'nccl' and torch.cuda.is_available() and rank == 0:
+        # For GPU case
+        model = torch.nn.parallel.DistributedDataParallel(
+            model, 
+            device_ids=[device_id] if device.type == 'cuda' else None
+        )
+    else:
+        # For CPU case or other ranks with gloo backend
+        model = torch.nn.parallel.DistributedDataParallel(model)
+    
+    # Data loading
     train_dataset = datasets.MNIST(
         './data',
         train=True,
+        download=True,
         transform=transforms.Compose([
             transforms.ToTensor(),
             transforms.Normalize((0.1307,), (0.3081,))
@@ -176,53 +116,47 @@ def run(rank, world_size, master_addr):
         sampler=train_sampler
     )
     
+    # Optimizer
     optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.5)
     
-    for epoch in range(10):
+    # Training loop
+    for epoch in range(3):  # Reduced to 3 epochs for testing
         train_sampler.set_epoch(epoch)
         model.train()
+        epoch_loss = 0.0
         
-        for data, target in train_loader:
+        for batch_idx, (data, target) in enumerate(train_loader):
             data, target = data.to(device), target.to(device)
             optimizer.zero_grad()
             output = model(data)
             loss = F.nll_loss(output, target)
+            epoch_loss += loss.item()
             loss.backward()
             optimizer.step()
+            
+            if rank == 0 and batch_idx % 50 == 0:
+                print(f"Rank {rank} | Epoch {epoch} | Batch {batch_idx}/{len(train_loader)} | Loss: {loss.item():.4f}")
         
+        # Only master reports epoch-level stats
         if rank == 0:
-            print(f'Epoch {epoch}, Loss: {loss.item():.4f}')
+            avg_loss = epoch_loss / len(train_loader)
+            print(f"\nEpoch {epoch} complete")
+            print(f"Average loss: {avg_loss:.4f}")
+            print("-" * 50)
     
+    # Cleanup with status message
+    if rank == 0:
+        print("\nTraining complete. Shutting down...")
     cleanup()
-
-
-# ----- Process Initialization -----
-def init_process(rank, size, fn, backend='gloo'):
-    os.environ['MASTER_ADDR'] = '127.0.0.1'
-    os.environ['MASTER_PORT'] = '29500'
-    dist.init_process_group(backend, rank=rank, world_size=size)
-    fn(rank, size)
-
-def main():
-    world_size = 2
-    mp.set_start_method("spawn", force=True)
-    
-    processes = []
-    for rank in range(world_size):
-        p = mp.Process(target=init_process, args=(rank, world_size, run))
-        p.start()
-        processes.append(p)
-
-    for p in processes:
-        p.join()
-
 
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('--rank', type=int)
-    parser.add_argument('--world-size', type=int)
-    parser.add_argument('--master-addr', type=str, default='127.0.0.1')
+    parser.add_argument('--rank', type=int, required=True, help='Process rank')
+    parser.add_argument('--world-size', type=int, required=True, help='World size (total number of processes)')
+    parser.add_argument('--master-addr', type=str, default='127.0.0.1', help='Master node address')
+    parser.add_argument('--backend', type=str, default='gloo', choices=['gloo', 'nccl'], 
+                        help='Backend for distributed training (gloo or nccl)')
     args = parser.parse_args()
     
-    run(args.rank, args.world_size, args.master_addr)
+    run(args.rank, args.world_size, args.master_addr, args.backend)
