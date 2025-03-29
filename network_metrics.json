@@ -1,0 +1,5645 @@
+{
+    "job_start_time": 1743119741.1781056,
+    "weight_transmissions": [
+        {
+            "start_time": 1743119750.127061,
+            "end_time": 1743119751.6794252,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 1.5523643493652344,
+            "throughput_bps": 56275.44850261584
+        },
+        {
+            "start_time": 1743119751.6954587,
+            "end_time": 1743119751.7044346,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008975982666015625,
+            "throughput_bps": 9732639.116022099
+        },
+        {
+            "start_time": 1743119751.7202775,
+            "end_time": 1743119751.7330642,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012786626815795898,
+            "throughput_bps": 6832138.081333557
+        },
+        {
+            "start_time": 1743119751.7483356,
+            "end_time": 1743119751.7604163,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012080669403076172,
+            "throughput_bps": 7231387.358200119
+        },
+        {
+            "start_time": 1743119751.7754745,
+            "end_time": 1743119751.7884238,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012949228286743164,
+            "throughput_bps": 6746347.972676891
+        },
+        {
+            "start_time": 1743119751.8033776,
+            "end_time": 1743119751.8222458,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.018868207931518555,
+            "throughput_bps": 4630010.455527616
+        },
+        {
+            "start_time": 1743119751.837157,
+            "end_time": 1743119751.8454309,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008273839950561523,
+            "throughput_bps": 10558579.876091404
+        },
+        {
+            "start_time": 1743119751.8611407,
+            "end_time": 1743119751.8705177,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009377002716064453,
+            "throughput_bps": 9316409.800152555
+        },
+        {
+            "start_time": 1743119751.886125,
+            "end_time": 1743119751.8967013,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010576248168945312,
+            "throughput_bps": 8260017.9765554555
+        },
+        {
+            "start_time": 1743119751.9119987,
+            "end_time": 1743119751.9244306,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012431859970092773,
+            "throughput_bps": 7027106.178010471
+        },
+        {
+            "start_time": 1743119751.9394567,
+            "end_time": 1743119751.951411,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011954307556152344,
+            "throughput_bps": 7307826.035899482
+        },
+        {
+            "start_time": 1743119751.9681108,
+            "end_time": 1743119751.9814315,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013320684432983398,
+            "throughput_bps": 6558221.57183512
+        },
+        {
+            "start_time": 1743119751.996842,
+            "end_time": 1743119752.0043893,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0075473785400390625,
+            "throughput_bps": 11574879.878695982
+        },
+        {
+            "start_time": 1743119752.0202415,
+            "end_time": 1743119752.0344243,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014182806015014648,
+            "throughput_bps": 6159570.955670987
+        },
+        {
+            "start_time": 1743119752.0498698,
+            "end_time": 1743119752.0644288,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014559030532836914,
+            "throughput_bps": 6000399.532301646
+        },
+        {
+            "start_time": 1743119752.0798242,
+            "end_time": 1743119752.087931,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008106708526611328,
+            "throughput_bps": 10776260.14469737
+        },
+        {
+            "start_time": 1743119752.1038315,
+            "end_time": 1743119752.114423,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010591506958007812,
+            "throughput_bps": 8248118.076715289
+        },
+        {
+            "start_time": 1743119752.1293988,
+            "end_time": 1743119752.1379855,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008586645126342773,
+            "throughput_bps": 10173938.565597668
+        },
+        {
+            "start_time": 1743119752.153167,
+            "end_time": 1743119752.1654315,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012264490127563477,
+            "throughput_bps": 7123003.00227445
+        },
+        {
+            "start_time": 1743119752.1800077,
+            "end_time": 1743119752.1997654,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.019757747650146484,
+            "throughput_bps": 4421556.624110051
+        },
+        {
+            "start_time": 1743119752.2145226,
+            "end_time": 1743119752.2294302,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014907598495483398,
+            "throughput_bps": 5860098.796359972
+        },
+        {
+            "start_time": 1743119752.2445345,
+            "end_time": 1743119752.2638807,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.019346237182617188,
+            "throughput_bps": 4515606.790890269
+        },
+        {
+            "start_time": 1743119752.278699,
+            "end_time": 1743119752.2950175,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016318559646606445,
+            "throughput_bps": 5353413.652421652
+        },
+        {
+            "start_time": 1743119752.3098722,
+            "end_time": 1743119752.3208852,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011013031005859375,
+            "throughput_bps": 7932421.143055075
+        },
+        {
+            "start_time": 1743119752.3363829,
+            "end_time": 1743119752.351424,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015041112899780273,
+            "throughput_bps": 5808080.8635693565
+        },
+        {
+            "start_time": 1743119752.3665287,
+            "end_time": 1743119752.3753061,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008777379989624023,
+            "throughput_bps": 9952856.103218798
+        },
+        {
+            "start_time": 1743119752.3907914,
+            "end_time": 1743119752.399255,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008463621139526367,
+            "throughput_bps": 10321823.077833178
+        },
+        {
+            "start_time": 1743119752.4149072,
+            "end_time": 1743119752.4234307,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00852346420288086,
+            "throughput_bps": 10249353.774545455
+        },
+        {
+            "start_time": 1743119752.438556,
+            "end_time": 1743119752.4514341,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012878179550170898,
+            "throughput_bps": 6783567.480144404
+        },
+        {
+            "start_time": 1743119752.4665298,
+            "end_time": 1743119752.4774294,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010899543762207031,
+            "throughput_bps": 8015014.380960714
+        },
+        {
+            "start_time": 1743119752.4929464,
+            "end_time": 1743119752.5014226,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00847625732421875,
+            "throughput_bps": 10306435.571557155
+        },
+        {
+            "start_time": 1743119752.5165117,
+            "end_time": 1743119752.5273817,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010869979858398438,
+            "throughput_bps": 8036813.419898228
+        },
+        {
+            "start_time": 1743119752.5424912,
+            "end_time": 1743119752.554426,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011934757232666016,
+            "throughput_bps": 7319796.984298214
+        },
+        {
+            "start_time": 1743119752.569313,
+            "end_time": 1743119752.581425,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012111902236938477,
+            "throughput_bps": 7212739.856302042
+        },
+        {
+            "start_time": 1743119752.5961828,
+            "end_time": 1743119752.6118035,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015620708465576172,
+            "throughput_bps": 5592576.046887878
+        },
+        {
+            "start_time": 1743119752.6258883,
+            "end_time": 1743119752.638436,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012547731399536133,
+            "throughput_bps": 6962214.6998802945
+        },
+        {
+            "start_time": 1743119752.6532753,
+            "end_time": 1743119752.664416,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011140823364257812,
+            "throughput_bps": 7841431.206985105
+        },
+        {
+            "start_time": 1743119752.679257,
+            "end_time": 1743119752.6913993,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012142419815063477,
+            "throughput_bps": 7194612.056784936
+        },
+        {
+            "start_time": 1743119752.7060401,
+            "end_time": 1743119752.7146494,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008609294891357422,
+            "throughput_bps": 10147172.457491
+        },
+        {
+            "start_time": 1743119752.729876,
+            "end_time": 1743119752.741428,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011551856994628906,
+            "throughput_bps": 7562420.487079997
+        },
+        {
+            "start_time": 1743119752.756113,
+            "end_time": 1743119752.7724543,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016341209411621094,
+            "throughput_bps": 5345993.543040561
+        },
+        {
+            "start_time": 1743119752.7864327,
+            "end_time": 1743119752.797943,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011510372161865234,
+            "throughput_bps": 7589676.404159244
+        },
+        {
+            "start_time": 1743119752.8126109,
+            "end_time": 1743119752.8303816,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.017770767211914062,
+            "throughput_bps": 4915938.572501878
+        },
+        {
+            "start_time": 1743119752.8445892,
+            "end_time": 1743119752.856418,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01182866096496582,
+            "throughput_bps": 7385451.342188539
+        },
+        {
+            "start_time": 1743119752.8709881,
+            "end_time": 1743119752.883424,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0124359130859375,
+            "throughput_bps": 7024815.901840491
+        },
+        {
+            "start_time": 1743119752.8982,
+            "end_time": 1743119752.90642,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00821995735168457,
+            "throughput_bps": 10627792.367085304
+        },
+        {
+            "start_time": 1743119752.9215827,
+            "end_time": 1743119752.9364169,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014834165573120117,
+            "throughput_bps": 5889107.787653289
+        },
+        {
+            "start_time": 1743119752.9510171,
+            "end_time": 1743119752.9623806,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011363506317138672,
+            "throughput_bps": 7687767.97952247
+        },
+        {
+            "start_time": 1743119752.9772036,
+            "end_time": 1743119752.9894245,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01222085952758789,
+            "throughput_bps": 7148433.365328339
+        },
+        {
+            "start_time": 1743119753.0041025,
+            "end_time": 1743119753.020525,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016422510147094727,
+            "throughput_bps": 5319527.844253132
+        },
+        {
+            "start_time": 1743119753.0346472,
+            "end_time": 1743119753.0440516,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009404420852661133,
+            "throughput_bps": 9289248.255545696
+        },
+        {
+            "start_time": 1743119753.0590448,
+            "end_time": 1743119753.0714319,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01238703727722168,
+            "throughput_bps": 7052533.87431431
+        },
+        {
+            "start_time": 1743119753.0860767,
+            "end_time": 1743119753.1061077,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.020030975341796875,
+            "throughput_bps": 4361245.446581604
+        },
+        {
+            "start_time": 1743119753.121408,
+            "end_time": 1743119753.1361551,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014747142791748047,
+            "throughput_bps": 5923859.369482976
+        },
+        {
+            "start_time": 1743119753.1505902,
+            "end_time": 1743119753.1594453,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008855104446411133,
+            "throughput_bps": 9865496.282814141
+        },
+        {
+            "start_time": 1743119753.1745896,
+            "end_time": 1743119753.182706,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008116483688354492,
+            "throughput_bps": 10763281.656728255
+        },
+        {
+            "start_time": 1743119753.1980321,
+            "end_time": 1743119753.2125723,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01454019546508789,
+            "throughput_bps": 6008172.325451743
+        },
+        {
+            "start_time": 1743119753.2269654,
+            "end_time": 1743119753.2394297,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012464284896850586,
+            "throughput_bps": 7008825.674553836
+        },
+        {
+            "start_time": 1743119753.2542033,
+            "end_time": 1743119753.2682073,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014003992080688477,
+            "throughput_bps": 6238221.179835538
+        },
+        {
+            "start_time": 1743119753.2828553,
+            "end_time": 1743119753.2944386,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011583328247070312,
+            "throughput_bps": 7541873.815247818
+        },
+        {
+            "start_time": 1743119753.309337,
+            "end_time": 1743119753.3254201,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016083240509033203,
+            "throughput_bps": 5431741.193631593
+        },
+        {
+            "start_time": 1743119753.3394718,
+            "end_time": 1743119753.356609,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01713728904724121,
+            "throughput_bps": 5097655.7470192965
+        },
+        {
+            "start_time": 1743119753.3715656,
+            "end_time": 1743119753.3833754,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011809825897216797,
+            "throughput_bps": 7397230.133645576
+        },
+        {
+            "start_time": 1743119753.404831,
+            "end_time": 1743119753.4174383,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012607336044311523,
+            "throughput_bps": 6929298.917150476
+        },
+        {
+            "start_time": 1743119753.4406152,
+            "end_time": 1743119753.4492905,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008675336837768555,
+            "throughput_bps": 10069926.002143623
+        },
+        {
+            "start_time": 1743119753.4651816,
+            "end_time": 1743119753.4813147,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01613306999206543,
+            "throughput_bps": 5414964.420470835
+        },
+        {
+            "start_time": 1743119753.496035,
+            "end_time": 1743119753.5084326,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012397527694702148,
+            "throughput_bps": 7046566.230889056
+        },
+        {
+            "start_time": 1743119753.523427,
+            "end_time": 1743119753.5354226,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011995553970336914,
+            "throughput_bps": 7282698.257706756
+        },
+        {
+            "start_time": 1743119753.5508614,
+            "end_time": 1743119753.566376,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015514612197875977,
+            "throughput_bps": 5630820.73117883
+        },
+        {
+            "start_time": 1743119753.5872147,
+            "end_time": 1743119753.6035583,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01634359359741211,
+            "throughput_bps": 5345213.675273523
+        },
+        {
+            "start_time": 1743119753.6256797,
+            "end_time": 1743119753.6404376,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014757871627807617,
+            "throughput_bps": 5919552.778558619
+        },
+        {
+            "start_time": 1743119753.6624994,
+            "end_time": 1743119753.6733844,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010885000228881836,
+            "throughput_bps": 8025723.303909758
+        },
+        {
+            "start_time": 1743119753.690456,
+            "end_time": 1743119753.6974907,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007034778594970703,
+            "throughput_bps": 12418301.275672745
+        },
+        {
+            "start_time": 1743119753.7133236,
+            "end_time": 1743119753.7215965,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008272886276245117,
+            "throughput_bps": 10559797.03853137
+        },
+        {
+            "start_time": 1743119753.7369401,
+            "end_time": 1743119753.74432,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007379770278930664,
+            "throughput_bps": 11837766.854262915
+        },
+        {
+            "start_time": 1743119753.7597663,
+            "end_time": 1743119753.7684298,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008663415908813477,
+            "throughput_bps": 10083782.300134849
+        },
+        {
+            "start_time": 1743119753.7838967,
+            "end_time": 1743119753.7934809,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009584188461303711,
+            "throughput_bps": 9115012.747580785
+        },
+        {
+            "start_time": 1743119753.808867,
+            "end_time": 1743119753.8173852,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008518218994140625,
+            "throughput_bps": 10255664.952978056
+        },
+        {
+            "start_time": 1743119753.8326135,
+            "end_time": 1743119753.8474174,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014803886413574219,
+            "throughput_bps": 5901153.086387941
+        },
+        {
+            "start_time": 1743119753.862154,
+            "end_time": 1743119753.8709407,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008786678314208984,
+            "throughput_bps": 9942323.694578607
+        },
+        {
+            "start_time": 1743119753.886016,
+            "end_time": 1743119753.892912,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.006896018981933594,
+            "throughput_bps": 12668178.586640852
+        },
+        {
+            "start_time": 1743119753.9082327,
+            "end_time": 1743119753.9238539,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015621185302734375,
+            "throughput_bps": 5592405.333333333
+        },
+        {
+            "start_time": 1743119753.9379783,
+            "end_time": 1743119753.9464262,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008447885513305664,
+            "throughput_bps": 10341049.232071798
+        },
+        {
+            "start_time": 1743119753.9615622,
+            "end_time": 1743119753.9682035,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.006641387939453125,
+            "throughput_bps": 13153876.990235496
+        },
+        {
+            "start_time": 1743119753.9835746,
+            "end_time": 1743119753.9943802,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010805606842041016,
+            "throughput_bps": 8084691.704690878
+        },
+        {
+            "start_time": 1743119754.0091717,
+            "end_time": 1743119754.0252283,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016056537628173828,
+            "throughput_bps": 5440774.469753215
+        },
+        {
+            "start_time": 1743119754.039326,
+            "end_time": 1743119754.0474257,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008099794387817383,
+            "throughput_bps": 10785458.965649191
+        },
+        {
+            "start_time": 1743119754.0624814,
+            "end_time": 1743119754.0774035,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014922142028808594,
+            "throughput_bps": 5854387.381606698
+        },
+        {
+            "start_time": 1743119754.091873,
+            "end_time": 1743119754.104389,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012516021728515625,
+            "throughput_bps": 6979853.654373666
+        },
+        {
+            "start_time": 1743119754.1186054,
+            "end_time": 1743119754.126017,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0074117183685302734,
+            "throughput_bps": 11786740.355775727
+        },
+        {
+            "start_time": 1743119754.1410155,
+            "end_time": 1743119754.1533823,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012366771697998047,
+            "throughput_bps": 7064090.947368421
+        },
+        {
+            "start_time": 1743119754.1678512,
+            "end_time": 1743119754.17838,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010528802871704102,
+            "throughput_bps": 8297239.587871651
+        },
+        {
+            "start_time": 1743119754.192999,
+            "end_time": 1743119754.2043808,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011381864547729492,
+            "throughput_bps": 7675368.094011186
+        },
+        {
+            "start_time": 1743119754.2190492,
+            "end_time": 1743119754.2346008,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015551567077636719,
+            "throughput_bps": 5617440.323787331
+        },
+        {
+            "start_time": 1743119754.2486062,
+            "end_time": 1743119754.2585723,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009966135025024414,
+            "throughput_bps": 8765684.970216023
+        },
+        {
+            "start_time": 1743119754.273501,
+            "end_time": 1743119754.287419,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013918161392211914,
+            "throughput_bps": 6276691.118762527
+        },
+        {
+            "start_time": 1743119754.3021843,
+            "end_time": 1743119754.3144093,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012224912643432617,
+            "throughput_bps": 7146063.333788396
+        },
+        {
+            "start_time": 1743119754.3292916,
+            "end_time": 1743119754.3424206,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013128995895385742,
+            "throughput_bps": 6653974.203061725
+        },
+        {
+            "start_time": 1743119754.3569913,
+            "end_time": 1743119754.3645532,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007561922073364258,
+            "throughput_bps": 11552618.388876628
+        },
+        {
+            "start_time": 1743119754.3801682,
+            "end_time": 1743119754.3953807,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015212535858154297,
+            "throughput_bps": 5742632.314202426
+        },
+        {
+            "start_time": 1743119754.410159,
+            "end_time": 1743119754.4194236,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009264469146728516,
+            "throughput_bps": 9429574.281743785
+        },
+        {
+            "start_time": 1743119754.4347353,
+            "end_time": 1743119754.4493847,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014649391174316406,
+            "throughput_bps": 5963387.758609465
+        },
+        {
+            "start_time": 1743119754.4643822,
+            "end_time": 1743119754.47544,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011057853698730469,
+            "throughput_bps": 7900267.301423027
+        },
+        {
+            "start_time": 1743119754.4981608,
+            "end_time": 1743119754.5080912,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00993037223815918,
+            "throughput_bps": 8797253.305802982
+        },
+        {
+            "start_time": 1743119754.5236216,
+            "end_time": 1743119754.5319414,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008319854736328125,
+            "throughput_bps": 10500183.32874828
+        },
+        {
+            "start_time": 1743119754.5480223,
+            "end_time": 1743119754.5604208,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012398481369018555,
+            "throughput_bps": 7046024.218602773
+        },
+        {
+            "start_time": 1743119754.5754745,
+            "end_time": 1743119754.5849352,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009460687637329102,
+            "throughput_bps": 9234001.094730476
+        },
+        {
+            "start_time": 1743119754.6003513,
+            "end_time": 1743119754.616939,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01658773422241211,
+            "throughput_bps": 5266542.062264639
+        },
+        {
+            "start_time": 1743119754.6313155,
+            "end_time": 1743119754.651011,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.019695520401000977,
+            "throughput_bps": 4435526.36443971
+        },
+        {
+            "start_time": 1743119754.6663551,
+            "end_time": 1743119754.6784298,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012074708938598633,
+            "throughput_bps": 7234957.003455425
+        },
+        {
+            "start_time": 1743119754.6938593,
+            "end_time": 1743119754.7052302,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01137089729309082,
+            "throughput_bps": 7682771.002872539
+        },
+        {
+            "start_time": 1743119754.7206247,
+            "end_time": 1743119754.7314308,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010806083679199219,
+            "throughput_bps": 8084334.953666931
+        },
+        {
+            "start_time": 1743119754.7461333,
+            "end_time": 1743119754.7594206,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01328730583190918,
+            "throughput_bps": 6574696.263121064
+        },
+        {
+            "start_time": 1743119754.7739513,
+            "end_time": 1743119754.7853813,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011430025100708008,
+            "throughput_bps": 7643027.835047246
+        },
+        {
+            "start_time": 1743119754.8004138,
+            "end_time": 1743119754.8140695,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013655662536621094,
+            "throughput_bps": 6397346.138696836
+        },
+        {
+            "start_time": 1743119754.8286016,
+            "end_time": 1743119754.8373935,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008791923522949219,
+            "throughput_bps": 9936392.164009111
+        },
+        {
+            "start_time": 1743119754.852671,
+            "end_time": 1743119754.8633952,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010724306106567383,
+            "throughput_bps": 8145981.579778128
+        },
+        {
+            "start_time": 1743119754.878474,
+            "end_time": 1743119754.893415,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014940977096557617,
+            "throughput_bps": 5847007.155919383
+        },
+        {
+            "start_time": 1743119754.9082263,
+            "end_time": 1743119754.9233878,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015161514282226562,
+            "throughput_bps": 5761957.438671531
+        },
+        {
+            "start_time": 1743119754.937608,
+            "end_time": 1743119754.949427,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011818885803222656,
+            "throughput_bps": 7391559.69983055
+        },
+        {
+            "start_time": 1743119754.9640553,
+            "end_time": 1743119754.9803567,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016301393508911133,
+            "throughput_bps": 5359051.049975867
+        },
+        {
+            "start_time": 1743119754.99456,
+            "end_time": 1743119755.0074515,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012891530990600586,
+            "throughput_bps": 6776541.906752233
+        },
+        {
+            "start_time": 1743119755.0219927,
+            "end_time": 1743119755.0388267,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016834020614624023,
+            "throughput_bps": 5189491.090685059
+        },
+        {
+            "start_time": 1743119755.0527198,
+            "end_time": 1743119755.06445,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011730194091796875,
+            "throughput_bps": 7447447.1024390245
+        },
+        {
+            "start_time": 1743119755.0790377,
+            "end_time": 1743119755.0914333,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012395620346069336,
+            "throughput_bps": 7047650.505664442
+        },
+        {
+            "start_time": 1743119755.1060143,
+            "end_time": 1743119755.1174304,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011416196823120117,
+            "throughput_bps": 7652285.726458242
+        },
+        {
+            "start_time": 1743119755.1320689,
+            "end_time": 1743119755.1433814,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011312484741210938,
+            "throughput_bps": 7722441.355589277
+        },
+        {
+            "start_time": 1743119755.158134,
+            "end_time": 1743119755.1664329,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008298873901367188,
+            "throughput_bps": 10526729.413927833
+        },
+        {
+            "start_time": 1743119755.1837914,
+            "end_time": 1743119755.19638,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0125885009765625,
+            "throughput_bps": 6939666.618181818
+        },
+        {
+            "start_time": 1743119755.2110763,
+            "end_time": 1743119755.2263808,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0153045654296875,
+            "throughput_bps": 5708100.658025922
+        },
+        {
+            "start_time": 1743119755.2404177,
+            "end_time": 1743119755.252428,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012010335922241211,
+            "throughput_bps": 7273734.936774193
+        },
+        {
+            "start_time": 1743119755.2669148,
+            "end_time": 1743119755.2794223,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012507438659667969,
+            "throughput_bps": 6984643.489134579
+        },
+        {
+            "start_time": 1743119755.2939947,
+            "end_time": 1743119755.305897,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011902332305908203,
+            "throughput_bps": 7339737.939986379
+        },
+        {
+            "start_time": 1743119755.3210568,
+            "end_time": 1743119755.336427,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01537013053894043,
+            "throughput_bps": 5683751.336963098
+        },
+        {
+            "start_time": 1743119755.3509123,
+            "end_time": 1743119755.3600423,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009130001068115234,
+            "throughput_bps": 9568454.521334935
+        },
+        {
+            "start_time": 1743119755.3750556,
+            "end_time": 1743119755.391704,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016648530960083008,
+            "throughput_bps": 5247309.820275243
+        },
+        {
+            "start_time": 1743119755.4057422,
+            "end_time": 1743119755.4139848,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008242607116699219,
+            "throughput_bps": 10598588.379035058
+        },
+        {
+            "start_time": 1743119755.429793,
+            "end_time": 1743119755.443928,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014135122299194336,
+            "throughput_bps": 6180349.780558975
+        },
+        {
+            "start_time": 1743119755.458979,
+            "end_time": 1743119755.4743798,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015400886535644531,
+            "throughput_bps": 5672400.728218465
+        },
+        {
+            "start_time": 1743119755.4885523,
+            "end_time": 1743119755.5090663,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.02051401138305664,
+            "throughput_bps": 4258552.770042538
+        },
+        {
+            "start_time": 1743119755.5241737,
+            "end_time": 1743119755.5363865,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012212753295898438,
+            "throughput_bps": 7153178.147743246
+        },
+        {
+            "start_time": 1743119755.5507658,
+            "end_time": 1743119755.5678778,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.017112016677856445,
+            "throughput_bps": 5105184.3651512405
+        },
+        {
+            "start_time": 1743119755.5819414,
+            "end_time": 1743119755.593889,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0119476318359375,
+            "throughput_bps": 7311909.272030652
+        },
+        {
+            "start_time": 1743119755.6086717,
+            "end_time": 1743119755.6245248,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015853166580200195,
+            "throughput_bps": 5510570.999052532
+        },
+        {
+            "start_time": 1743119755.6387823,
+            "end_time": 1743119755.6504257,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011643409729003906,
+            "throughput_bps": 7502956.782701286
+        },
+        {
+            "start_time": 1743119755.66538,
+            "end_time": 1743119755.6724255,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0070455074310302734,
+            "throughput_bps": 12399390.796927346
+        },
+        {
+            "start_time": 1743119755.6879914,
+            "end_time": 1743119755.6994214,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011430025100708008,
+            "throughput_bps": 7643027.835047246
+        },
+        {
+            "start_time": 1743119755.714699,
+            "end_time": 1743119755.7243283,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009629249572753906,
+            "throughput_bps": 9072358.062790928
+        },
+        {
+            "start_time": 1743119755.739723,
+            "end_time": 1743119755.751382,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01165914535522461,
+            "throughput_bps": 7492830.506727741
+        },
+        {
+            "start_time": 1743119755.7667964,
+            "end_time": 1743119755.7749958,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008199453353881836,
+            "throughput_bps": 10654368.801139833
+        },
+        {
+            "start_time": 1743119755.790737,
+            "end_time": 1743119755.8066258,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01588892936706543,
+            "throughput_bps": 5498167.811172967
+        },
+        {
+            "start_time": 1743119755.820966,
+            "end_time": 1743119755.8319619,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010995864868164062,
+            "throughput_bps": 7944804.801387684
+        },
+        {
+            "start_time": 1743119755.8468385,
+            "end_time": 1743119755.8594296,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012591123580932617,
+            "throughput_bps": 6938221.155441102
+        },
+        {
+            "start_time": 1743119755.8745022,
+            "end_time": 1743119755.8874283,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012926101684570312,
+            "throughput_bps": 6758418.131916777
+        },
+        {
+            "start_time": 1743119755.902019,
+            "end_time": 1743119755.9109545,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00893545150756836,
+            "throughput_bps": 9776786.313036982
+        },
+        {
+            "start_time": 1743119755.9262712,
+            "end_time": 1743119755.9343696,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008098363876342773,
+            "throughput_bps": 10787364.13106839
+        },
+        {
+            "start_time": 1743119755.9496832,
+            "end_time": 1743119755.96343,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01374673843383789,
+            "throughput_bps": 6354961.973013286
+        },
+        {
+            "start_time": 1743119755.9792786,
+            "end_time": 1743119755.9937627,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014484167098999023,
+            "throughput_bps": 6031413.43253609
+        },
+        {
+            "start_time": 1743119756.0084085,
+            "end_time": 1743119756.01942,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011011362075805664,
+            "throughput_bps": 7933623.415394609
+        },
+        {
+            "start_time": 1743119756.0349262,
+            "end_time": 1743119756.0453804,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010454177856445312,
+            "throughput_bps": 8356467.739463601
+        },
+        {
+            "start_time": 1743119756.0613606,
+            "end_time": 1743119756.0763884,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015027761459350586,
+            "throughput_bps": 5813241.062969015
+        },
+        {
+            "start_time": 1743119756.093697,
+            "end_time": 1743119756.1074321,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013735055923461914,
+            "throughput_bps": 6360367.259282404
+        },
+        {
+            "start_time": 1743119756.1218247,
+            "end_time": 1743119756.134998,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013173341751098633,
+            "throughput_bps": 6631574.709789514
+        },
+        {
+            "start_time": 1743119756.1494439,
+            "end_time": 1743119756.1579802,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008536338806152344,
+            "throughput_bps": 10233895.582616467
+        },
+        {
+            "start_time": 1743119756.1733227,
+            "end_time": 1743119756.181984,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008661270141601562,
+            "throughput_bps": 10086280.484474786
+        },
+        {
+            "start_time": 1743119756.197243,
+            "end_time": 1743119756.2089517,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011708736419677734,
+            "throughput_bps": 7461095.4477703115
+        },
+        {
+            "start_time": 1743119756.2235756,
+            "end_time": 1743119756.238381,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014805316925048828,
+            "throughput_bps": 5900582.908306225
+        },
+        {
+            "start_time": 1743119756.2526197,
+            "end_time": 1743119756.2644258,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011806011199951172,
+            "throughput_bps": 7399620.288379983
+        },
+        {
+            "start_time": 1743119756.2792544,
+            "end_time": 1743119756.2879353,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00868082046508789,
+            "throughput_bps": 10063564.884372424
+        },
+        {
+            "start_time": 1743119756.303039,
+            "end_time": 1743119756.3189318,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015892744064331055,
+            "throughput_bps": 5496848.0991314
+        },
+        {
+            "start_time": 1743119756.3390622,
+            "end_time": 1743119756.3585389,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.019476652145385742,
+            "throughput_bps": 4485370.450110783
+        },
+        {
+            "start_time": 1743119756.3802788,
+            "end_time": 1743119756.4003937,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.020114898681640625,
+            "throughput_bps": 4343049.46709653
+        },
+        {
+            "start_time": 1743119756.414919,
+            "end_time": 1743119756.4349482,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.020029306411743164,
+            "throughput_bps": 4361608.844766632
+        },
+        {
+            "start_time": 1743119756.4495363,
+            "end_time": 1743119756.4593763,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009840011596679688,
+            "throughput_bps": 8878038.317503393
+        },
+        {
+            "start_time": 1743119756.4749448,
+            "end_time": 1743119756.489609,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014664173126220703,
+            "throughput_bps": 5957376.474490293
+        },
+        {
+            "start_time": 1743119756.50477,
+            "end_time": 1743119756.5164235,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011653423309326172,
+            "throughput_bps": 7496509.624780064
+        },
+        {
+            "start_time": 1743119756.5319116,
+            "end_time": 1743119756.5433853,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011473655700683594,
+            "throughput_bps": 7613963.873327238
+        },
+        {
+            "start_time": 1743119756.5589993,
+            "end_time": 1743119756.56595,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0069506168365478516,
+            "throughput_bps": 12568668.659829177
+        },
+        {
+            "start_time": 1743119756.5819705,
+            "end_time": 1743119756.5893562,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007385730743408203,
+            "throughput_bps": 11828213.488282006
+        },
+        {
+            "start_time": 1743119756.6052537,
+            "end_time": 1743119756.6176836,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012429952621459961,
+            "throughput_bps": 7028184.471851923
+        },
+        {
+            "start_time": 1743119756.6329153,
+            "end_time": 1743119756.643382,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010466814041137695,
+            "throughput_bps": 8346379.295232455
+        },
+        {
+            "start_time": 1743119756.6588442,
+            "end_time": 1743119756.6693811,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010536909103393555,
+            "throughput_bps": 8290856.373797941
+        },
+        {
+            "start_time": 1743119756.6848412,
+            "end_time": 1743119756.6973732,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01253199577331543,
+            "throughput_bps": 6970956.70795046
+        },
+        {
+            "start_time": 1743119756.712631,
+            "end_time": 1743119756.7254276,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012796640396118164,
+            "throughput_bps": 6826791.821586273
+        },
+        {
+            "start_time": 1743119756.7410312,
+            "end_time": 1743119756.7572172,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016185998916625977,
+            "throughput_bps": 5397257.249922668
+        },
+        {
+            "start_time": 1743119756.7712965,
+            "end_time": 1743119756.80657,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.03527355194091797,
+            "throughput_bps": 2476643.1275853678
+        },
+        {
+            "start_time": 1743119756.8211899,
+            "end_time": 1743119756.8363807,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015190839767456055,
+            "throughput_bps": 5750834.143294358
+        },
+        {
+            "start_time": 1743119756.8511353,
+            "end_time": 1743119756.859439,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008303642272949219,
+            "throughput_bps": 10520684.433214655
+        },
+        {
+            "start_time": 1743119756.8750439,
+            "end_time": 1743119756.8844244,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009380578994750977,
+            "throughput_bps": 9312857.98551277
+        },
+        {
+            "start_time": 1743119756.9001312,
+            "end_time": 1743119756.9084253,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008294105529785156,
+            "throughput_bps": 10532781.34529148
+        },
+        {
+            "start_time": 1743119756.9241395,
+            "end_time": 1743119756.9354196,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011280059814453125,
+            "throughput_bps": 7744639.783564423
+        },
+        {
+            "start_time": 1743119756.9507904,
+            "end_time": 1743119756.961431,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010640621185302734,
+            "throughput_bps": 8210046.996190903
+        },
+        {
+            "start_time": 1743119756.9767914,
+            "end_time": 1743119756.9891014,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012310028076171875,
+            "throughput_bps": 7096653.188720173
+        },
+        {
+            "start_time": 1743119757.0041308,
+            "end_time": 1743119757.015381,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01125025749206543,
+            "throughput_bps": 7765155.603026257
+        },
+        {
+            "start_time": 1743119757.0307348,
+            "end_time": 1743119757.04139,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01065516471862793,
+            "throughput_bps": 8198840.872658924
+        },
+        {
+            "start_time": 1743119757.0566182,
+            "end_time": 1743119757.071429,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014810800552368164,
+            "throughput_bps": 5898398.246003767
+        },
+        {
+            "start_time": 1743119757.0866191,
+            "end_time": 1743119757.0984309,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01181173324584961,
+            "throughput_bps": 7396035.635218603
+        },
+        {
+            "start_time": 1743119757.1138458,
+            "end_time": 1743119757.1213918,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007545948028564453,
+            "throughput_bps": 11577074.16872038
+        },
+        {
+            "start_time": 1743119757.1465647,
+            "end_time": 1743119757.1849816,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.03841686248779297,
+            "throughput_bps": 2274001.4239257253
+        },
+        {
+            "start_time": 1743119757.2072275,
+            "end_time": 1743119757.2194383,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012210845947265625,
+            "throughput_bps": 7154295.482661668
+        },
+        {
+            "start_time": 1743119757.2417834,
+            "end_time": 1743119757.2523823,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010598897933959961,
+            "throughput_bps": 8242366.380384658
+        },
+        {
+            "start_time": 1743119757.2731576,
+            "end_time": 1743119757.2933197,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.020162105560302734,
+            "throughput_bps": 4332880.796537615
+        },
+        {
+            "start_time": 1743119757.308131,
+            "end_time": 1743119757.3233824,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015251398086547852,
+            "throughput_bps": 5727999.45973831
+        },
+        {
+            "start_time": 1743119757.338144,
+            "end_time": 1743119757.3537505,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015606403350830078,
+            "throughput_bps": 5597702.30437838
+        },
+        {
+            "start_time": 1743119757.3677602,
+            "end_time": 1743119757.3822827,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014522552490234375,
+            "throughput_bps": 6015471.45784082
+        },
+        {
+            "start_time": 1743119757.3963807,
+            "end_time": 1743119757.4102852,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013904571533203125,
+            "throughput_bps": 6282825.744855967
+        },
+        {
+            "start_time": 1743119757.4253385,
+            "end_time": 1743119757.4374437,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012105226516723633,
+            "throughput_bps": 7216717.496307093
+        },
+        {
+            "start_time": 1743119757.451884,
+            "end_time": 1743119757.4597645,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007880449295043945,
+            "throughput_bps": 11085662.34350891
+        },
+        {
+            "start_time": 1743119757.4750242,
+            "end_time": 1743119757.48339,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008365869522094727,
+            "throughput_bps": 10442429.178374989
+        },
+        {
+            "start_time": 1743119757.498893,
+            "end_time": 1743119757.5087204,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009827375411987305,
+            "throughput_bps": 8889453.830515053
+        },
+        {
+            "start_time": 1743119757.5242293,
+            "end_time": 1743119757.542416,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01818680763244629,
+            "throughput_bps": 4803481.829551265
+        },
+        {
+            "start_time": 1743119757.5575564,
+            "end_time": 1743119757.5694199,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011863470077514648,
+            "throughput_bps": 7363781.375027633
+        },
+        {
+            "start_time": 1743119757.5851336,
+            "end_time": 1743119757.5964198,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011286258697509766,
+            "throughput_bps": 7740386.105031898
+        },
+        {
+            "start_time": 1743119757.6119297,
+            "end_time": 1743119757.6319106,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.019980907440185547,
+            "throughput_bps": 4372173.799489297
+        },
+        {
+            "start_time": 1743119757.6477687,
+            "end_time": 1743119757.6594205,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011651754379272461,
+            "throughput_bps": 7497583.381555524
+        },
+        {
+            "start_time": 1743119757.6747801,
+            "end_time": 1743119757.6853814,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010601282119750977,
+            "throughput_bps": 8240512.705273811
+        },
+        {
+            "start_time": 1743119757.7008579,
+            "end_time": 1743119757.70842,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007562160491943359,
+            "throughput_bps": 11552254.159783088
+        },
+        {
+            "start_time": 1743119757.7243745,
+            "end_time": 1743119757.7364206,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012046098709106445,
+            "throughput_bps": 7252140.473824839
+        },
+        {
+            "start_time": 1743119757.751739,
+            "end_time": 1743119757.7719908,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.020251750946044922,
+            "throughput_bps": 4313701.083562902
+        },
+        {
+            "start_time": 1743119757.7861886,
+            "end_time": 1743119757.7953925,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009203910827636719,
+            "throughput_bps": 9491617.382654646
+        },
+        {
+            "start_time": 1743119757.8106778,
+            "end_time": 1743119757.8270414,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01636362075805664,
+            "throughput_bps": 5338671.758020806
+        },
+        {
+            "start_time": 1743119757.8411949,
+            "end_time": 1743119757.853427,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012232065200805664,
+            "throughput_bps": 7141884.756651399
+        },
+        {
+            "start_time": 1743119757.8682282,
+            "end_time": 1743119757.880424,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012195825576782227,
+            "throughput_bps": 7163106.708110961
+        },
+        {
+            "start_time": 1743119757.8953533,
+            "end_time": 1743119757.9034333,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008080005645751953,
+            "throughput_bps": 10811873.633520212
+        },
+        {
+            "start_time": 1743119757.918647,
+            "end_time": 1743119757.9276114,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008964300155639648,
+            "throughput_bps": 9745322.945823027
+        },
+        {
+            "start_time": 1743119757.9427564,
+            "end_time": 1743119757.963223,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.02046656608581543,
+            "throughput_bps": 4268424.885430379
+        },
+        {
+            "start_time": 1743119757.9778733,
+            "end_time": 1743119757.9904103,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012537002563476562,
+            "throughput_bps": 6968172.779552716
+        },
+        {
+            "start_time": 1743119758.0055299,
+            "end_time": 1743119758.020416,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014886140823364258,
+            "throughput_bps": 5868545.853260086
+        },
+        {
+            "start_time": 1743119758.0354648,
+            "end_time": 1743119758.047426,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011961221694946289,
+            "throughput_bps": 7303601.774801172
+        },
+        {
+            "start_time": 1743119758.0626361,
+            "end_time": 1743119758.0821705,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01953434944152832,
+            "throughput_bps": 4472122.312621288
+        },
+        {
+            "start_time": 1743119758.097922,
+            "end_time": 1743119758.1061332,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008211135864257812,
+            "throughput_bps": 10639210.146341464
+        },
+        {
+            "start_time": 1743119758.12175,
+            "end_time": 1743119758.131729,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009978771209716797,
+            "throughput_bps": 8754584.924738375
+        },
+        {
+            "start_time": 1743119758.147063,
+            "end_time": 1743119758.1559484,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008885383605957031,
+            "throughput_bps": 9831877.145003757
+        },
+        {
+            "start_time": 1743119758.1714334,
+            "end_time": 1743119758.1794298,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007996320724487305,
+            "throughput_bps": 10925024.521899877
+        },
+        {
+            "start_time": 1743119758.186198,
+            "end_time": 1743119758.195391,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009192943572998047,
+            "throughput_bps": 9502940.957518544
+        },
+        {
+            "start_time": 1743119758.212864,
+            "end_time": 1743119758.2273808,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014516830444335938,
+            "throughput_bps": 6017842.554197871
+        },
+        {
+            "start_time": 1743119758.2425983,
+            "end_time": 1743119758.2509434,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00834512710571289,
+            "throughput_bps": 10468384.590594823
+        },
+        {
+            "start_time": 1743119758.266207,
+            "end_time": 1743119758.27858,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012372970581054688,
+            "throughput_bps": 7060551.823647294
+        },
+        {
+            "start_time": 1743119758.2931845,
+            "end_time": 1743119758.30239,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00920557975769043,
+            "throughput_bps": 9489896.595270777
+        },
+        {
+            "start_time": 1743119758.3181906,
+            "end_time": 1743119758.3269937,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008803129196166992,
+            "throughput_bps": 9923743.938466538
+        },
+        {
+            "start_time": 1743119758.3418674,
+            "end_time": 1743119758.3591945,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.017327070236206055,
+            "throughput_bps": 5041821.774200207
+        },
+        {
+            "start_time": 1743119758.3739314,
+            "end_time": 1743119758.3907342,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01680278778076172,
+            "throughput_bps": 5199137.258641239
+        },
+        {
+            "start_time": 1743119758.405449,
+            "end_time": 1743119758.4174259,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011976957321166992,
+            "throughput_bps": 7294006.120035832
+        },
+        {
+            "start_time": 1743119758.4326992,
+            "end_time": 1743119758.448934,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016234874725341797,
+            "throughput_bps": 5381008.568155785
+        },
+        {
+            "start_time": 1743119758.4637299,
+            "end_time": 1743119758.4748876,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011157751083374023,
+            "throughput_bps": 7829534.764418043
+        },
+        {
+            "start_time": 1743119758.4904275,
+            "end_time": 1743119758.5065124,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016084909439086914,
+            "throughput_bps": 5431177.6097235605
+        },
+        {
+            "start_time": 1743119758.521432,
+            "end_time": 1743119758.5334287,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011996746063232422,
+            "throughput_bps": 7281974.590405024
+        },
+        {
+            "start_time": 1743119758.5487797,
+            "end_time": 1743119758.5558724,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007092714309692383,
+            "throughput_bps": 12316864.346364584
+        },
+        {
+            "start_time": 1743119758.5718546,
+            "end_time": 1743119758.5897238,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.017869234085083008,
+            "throughput_bps": 4888849.717007565
+        },
+        {
+            "start_time": 1743119758.6042697,
+            "end_time": 1743119758.6116931,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00742340087890625,
+            "throughput_bps": 11768191.07913669
+        },
+        {
+            "start_time": 1743119758.6273277,
+            "end_time": 1743119758.6394355,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01210784912109375,
+            "throughput_bps": 7215154.328922495
+        },
+        {
+            "start_time": 1743119758.6542327,
+            "end_time": 1743119758.6624098,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008177042007446289,
+            "throughput_bps": 10683569.916902352
+        },
+        {
+            "start_time": 1743119758.6778007,
+            "end_time": 1743119758.6883793,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010578632354736328,
+            "throughput_bps": 8258156.354293441
+        },
+        {
+            "start_time": 1743119758.7037895,
+            "end_time": 1743119758.7154348,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011645317077636719,
+            "throughput_bps": 7501727.897797069
+        },
+        {
+            "start_time": 1743119758.7300708,
+            "end_time": 1743119758.745382,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015311241149902344,
+            "throughput_bps": 5705611.91902834
+        },
+        {
+            "start_time": 1743119758.759579,
+            "end_time": 1743119758.7714205,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011841535568237305,
+            "throughput_bps": 7377421.576499486
+        },
+        {
+            "start_time": 1743119758.7861786,
+            "end_time": 1743119758.7973921,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011213541030883789,
+            "throughput_bps": 7790581.0269385325
+        },
+        {
+            "start_time": 1743119758.8124,
+            "end_time": 1743119758.824428,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012027978897094727,
+            "throughput_bps": 7263065.619536562
+        },
+        {
+            "start_time": 1743119758.839183,
+            "end_time": 1743119758.854381,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015197992324829102,
+            "throughput_bps": 5748127.656129893
+        },
+        {
+            "start_time": 1743119758.868749,
+            "end_time": 1743119758.879381,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010632038116455078,
+            "throughput_bps": 8216674.831591694
+        },
+        {
+            "start_time": 1743119758.8943932,
+            "end_time": 1743119758.9093823,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014989137649536133,
+            "throughput_bps": 5828220.544942658
+        },
+        {
+            "start_time": 1743119758.9245975,
+            "end_time": 1743119758.9404752,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015877723693847656,
+            "throughput_bps": 5502048.132620578
+        },
+        {
+            "start_time": 1743119758.9550986,
+            "end_time": 1743119758.970891,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015792369842529297,
+            "throughput_bps": 5531785.341344847
+        },
+        {
+            "start_time": 1743119758.985681,
+            "end_time": 1743119758.9984252,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01274418830871582,
+            "throughput_bps": 6854889.294146259
+        },
+        {
+            "start_time": 1743119759.0135112,
+            "end_time": 1743119759.0225263,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009015083312988281,
+            "throughput_bps": 9690426.251983497
+        },
+        {
+            "start_time": 1743119759.0383399,
+            "end_time": 1743119759.053421,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015081167221069336,
+            "throughput_bps": 5792655.085605881
+        },
+        {
+            "start_time": 1743119759.0687282,
+            "end_time": 1743119759.0869951,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.018266916275024414,
+            "throughput_bps": 4782416.401581895
+        },
+        {
+            "start_time": 1743119759.1019032,
+            "end_time": 1743119759.1133308,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011427640914916992,
+            "throughput_bps": 7644622.424735557
+        },
+        {
+            "start_time": 1743119759.1286345,
+            "end_time": 1743119759.144745,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016110658645629883,
+            "throughput_bps": 5422497.113344087
+        },
+        {
+            "start_time": 1743119759.1593869,
+            "end_time": 1743119759.175846,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016459226608276367,
+            "throughput_bps": 5307661.294126168
+        },
+        {
+            "start_time": 1743119759.1906347,
+            "end_time": 1743119759.1989462,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00831151008605957,
+            "throughput_bps": 10510725.379076906
+        },
+        {
+            "start_time": 1743119759.2148569,
+            "end_time": 1743119759.2263815,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011524677276611328,
+            "throughput_bps": 7580255.6464893045
+        },
+        {
+            "start_time": 1743119759.2421758,
+            "end_time": 1743119759.2501233,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007947444915771484,
+            "throughput_bps": 10992212.07895842
+        },
+        {
+            "start_time": 1743119759.266083,
+            "end_time": 1743119759.2763295,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010246515274047852,
+            "throughput_bps": 8525825.381948484
+        },
+        {
+            "start_time": 1743119759.2922773,
+            "end_time": 1743119759.3044171,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01213979721069336,
+            "throughput_bps": 7196166.334891394
+        },
+        {
+            "start_time": 1743119759.3189294,
+            "end_time": 1743119759.334489,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015559673309326172,
+            "throughput_bps": 5614513.766663603
+        },
+        {
+            "start_time": 1743119759.3488655,
+            "end_time": 1743119759.3580244,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009158849716186523,
+            "throughput_bps": 9538315.695431473
+        },
+        {
+            "start_time": 1743119759.3731785,
+            "end_time": 1743119759.382973,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009794473648071289,
+            "throughput_bps": 8919315.436333098
+        },
+        {
+            "start_time": 1743119759.397986,
+            "end_time": 1743119759.4069655,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008979558944702148,
+            "throughput_bps": 9728762.90895574
+        },
+        {
+            "start_time": 1743119759.4221356,
+            "end_time": 1743119759.4310377,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00890207290649414,
+            "throughput_bps": 9813444.679415073
+        },
+        {
+            "start_time": 1743119759.4472864,
+            "end_time": 1743119759.461986,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014699697494506836,
+            "throughput_bps": 5942979.441083448
+        },
+        {
+            "start_time": 1743119759.4767606,
+            "end_time": 1743119759.485429,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00866842269897461,
+            "throughput_bps": 10077958.01309203
+        },
+        {
+            "start_time": 1743119759.5007384,
+            "end_time": 1743119759.5124247,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011686325073242188,
+            "throughput_bps": 7475403.897502856
+        },
+        {
+            "start_time": 1743119759.5272775,
+            "end_time": 1743119759.5346246,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00734710693359375,
+            "throughput_bps": 11890394.517133957
+        },
+        {
+            "start_time": 1743119759.5501647,
+            "end_time": 1743119759.5583732,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008208513259887695,
+            "throughput_bps": 10642609.353742484
+        },
+        {
+            "start_time": 1743119759.5734766,
+            "end_time": 1743119759.584382,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01090550422668457,
+            "throughput_bps": 8010633.729914081
+        },
+        {
+            "start_time": 1743119759.599085,
+            "end_time": 1743119759.6144195,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015334367752075195,
+            "throughput_bps": 5697006.972340127
+        },
+        {
+            "start_time": 1743119759.6284196,
+            "end_time": 1743119759.6404235,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012003898620605469,
+            "throughput_bps": 7277635.604989274
+        },
+        {
+            "start_time": 1743119759.6549568,
+            "end_time": 1743119759.6674254,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012468576431274414,
+            "throughput_bps": 7006413.320840583
+        },
+        {
+            "start_time": 1743119759.6817858,
+            "end_time": 1743119759.6978126,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016026735305786133,
+            "throughput_bps": 5450891.796313652
+        },
+        {
+            "start_time": 1743119759.7121272,
+            "end_time": 1743119759.7244878,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012360572814941406,
+            "throughput_bps": 7067633.620862587
+        },
+        {
+            "start_time": 1743119759.7390723,
+            "end_time": 1743119759.753925,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014852762222290039,
+            "throughput_bps": 5881734.231824967
+        },
+        {
+            "start_time": 1743119759.7679808,
+            "end_time": 1743119759.7754564,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007475614547729492,
+            "throughput_bps": 11685995.772285122
+        },
+        {
+            "start_time": 1743119759.7906635,
+            "end_time": 1743119759.7997208,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009057283401489258,
+            "throughput_bps": 9645276.19679381
+        },
+        {
+            "start_time": 1743119759.814954,
+            "end_time": 1743119759.8215466,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.006592512130737305,
+            "throughput_bps": 13251397.686882934
+        },
+        {
+            "start_time": 1743119759.8369944,
+            "end_time": 1743119759.8504233,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013428926467895508,
+            "throughput_bps": 6505359.919041278
+        },
+        {
+            "start_time": 1743119759.8651326,
+            "end_time": 1743119759.8773973,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012264728546142578,
+            "throughput_bps": 7122864.535593484
+        },
+        {
+            "start_time": 1743119759.8920562,
+            "end_time": 1743119759.9044409,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012384653091430664,
+            "throughput_bps": 7053891.566849552
+        },
+        {
+            "start_time": 1743119759.9188967,
+            "end_time": 1743119759.930413,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011516332626342773,
+            "throughput_bps": 7585748.244208435
+        },
+        {
+            "start_time": 1743119759.9449677,
+            "end_time": 1743119759.9594119,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014444112777709961,
+            "throughput_bps": 6048138.874601786
+        },
+        {
+            "start_time": 1743119759.9738152,
+            "end_time": 1743119759.989391,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015575885772705078,
+            "throughput_bps": 5608669.7909077
+        },
+        {
+            "start_time": 1743119760.0034847,
+            "end_time": 1743119760.0199165,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016431808471679688,
+            "throughput_bps": 5316517.664538596
+        },
+        {
+            "start_time": 1743119760.0338638,
+            "end_time": 1743119760.045428,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011564254760742188,
+            "throughput_bps": 7554312.993567541
+        },
+        {
+            "start_time": 1743119760.0600188,
+            "end_time": 1743119760.072426,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012407302856445312,
+            "throughput_bps": 7041014.554957725
+        },
+        {
+            "start_time": 1743119760.0869188,
+            "end_time": 1743119760.0958164,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008897542953491211,
+            "throughput_bps": 9818440.94000375
+        },
+        {
+            "start_time": 1743119760.110989,
+            "end_time": 1743119760.1216304,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010641336441040039,
+            "throughput_bps": 8209495.159187148
+        },
+        {
+            "start_time": 1743119760.136282,
+            "end_time": 1743119760.1443434,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008061408996582031,
+            "throughput_bps": 10836815.256122086
+        },
+        {
+            "start_time": 1743119760.159453,
+            "end_time": 1743119760.1730607,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01360774040222168,
+            "throughput_bps": 6419875.557424442
+        },
+        {
+            "start_time": 1743119760.1873887,
+            "end_time": 1743119760.1954284,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008039712905883789,
+            "throughput_bps": 10866059.649476588
+        },
+        {
+            "start_time": 1743119760.210762,
+            "end_time": 1743119760.2213802,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010618209838867188,
+            "throughput_bps": 8227375.548769535
+        },
+        {
+            "start_time": 1743119760.2362244,
+            "end_time": 1743119760.2441618,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007937431335449219,
+            "throughput_bps": 11006079.461732548
+        },
+        {
+            "start_time": 1743119760.2594123,
+            "end_time": 1743119760.2715826,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01217031478881836,
+            "throughput_bps": 7178121.644007366
+        },
+        {
+            "start_time": 1743119760.2862694,
+            "end_time": 1743119760.3054786,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01920914649963379,
+            "throughput_bps": 4547833.502215493
+        },
+        {
+            "start_time": 1743119760.3197427,
+            "end_time": 1743119760.3354154,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015672683715820312,
+            "throughput_bps": 5574029.4121942315
+        },
+        {
+            "start_time": 1743119760.3497446,
+            "end_time": 1743119760.360439,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010694503784179688,
+            "throughput_bps": 8168681.947565543
+        },
+        {
+            "start_time": 1743119760.382305,
+            "end_time": 1743119760.394436,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012130975723266602,
+            "throughput_bps": 7201399.293252884
+        },
+        {
+            "start_time": 1743119760.4166248,
+            "end_time": 1743119760.4242733,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007648468017578125,
+            "throughput_bps": 11421895.182044888
+        },
+        {
+            "start_time": 1743119760.446104,
+            "end_time": 1743119760.459385,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013280868530273438,
+            "throughput_bps": 6577883.050409307
+        },
+        {
+            "start_time": 1743119760.4787104,
+            "end_time": 1743119760.4894254,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010715007781982422,
+            "throughput_bps": 8153050.541586935
+        },
+        {
+            "start_time": 1743119760.5086617,
+            "end_time": 1743119760.5203874,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011725664138793945,
+            "throughput_bps": 7450324.260181777
+        },
+        {
+            "start_time": 1743119760.535836,
+            "end_time": 1743119760.547445,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011609077453613281,
+            "throughput_bps": 7525145.761932145
+        },
+        {
+            "start_time": 1743119760.5628805,
+            "end_time": 1743119760.5764263,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013545751571655273,
+            "throughput_bps": 6449254.553198979
+        },
+        {
+            "start_time": 1743119760.5914314,
+            "end_time": 1743119760.6107602,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.019328832626342773,
+            "throughput_bps": 4519672.847750737
+        },
+        {
+            "start_time": 1743119760.625146,
+            "end_time": 1743119760.637421,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012274980545043945,
+            "throughput_bps": 7116915.556764106
+        },
+        {
+            "start_time": 1743119760.6521237,
+            "end_time": 1743119760.664431,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012307405471801758,
+            "throughput_bps": 7098165.425698844
+        },
+        {
+            "start_time": 1743119760.6792307,
+            "end_time": 1743119760.6915755,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012344837188720703,
+            "throughput_bps": 7076642.540074935
+        },
+        {
+            "start_time": 1743119760.7138572,
+            "end_time": 1743119760.7243817,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010524511337280273,
+            "throughput_bps": 8300622.917336837
+        },
+        {
+            "start_time": 1743119760.7394063,
+            "end_time": 1743119760.750426,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011019706726074219,
+            "throughput_bps": 7927615.69536997
+        },
+        {
+            "start_time": 1743119760.7654848,
+            "end_time": 1743119760.778681,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013196229934692383,
+            "throughput_bps": 6620072.583786518
+        },
+        {
+            "start_time": 1743119760.793931,
+            "end_time": 1743119760.8053827,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01145172119140625,
+            "throughput_bps": 7628547.581612258
+        },
+        {
+            "start_time": 1743119760.8205836,
+            "end_time": 1743119760.8324242,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011840581893920898,
+            "throughput_bps": 7378015.775124338
+        },
+        {
+            "start_time": 1743119760.847792,
+            "end_time": 1743119760.8593817,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011589765548706055,
+            "throughput_bps": 7537684.833473905
+        },
+        {
+            "start_time": 1743119760.8746018,
+            "end_time": 1743119760.8853974,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01079559326171875,
+            "throughput_bps": 8092190.756183745
+        },
+        {
+            "start_time": 1743119760.9008303,
+            "end_time": 1743119760.9134238,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012593507766723633,
+            "throughput_bps": 6936907.620832623
+        },
+        {
+            "start_time": 1743119760.9287782,
+            "end_time": 1743119760.9453278,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01654958724975586,
+            "throughput_bps": 5278681.497104331
+        },
+        {
+            "start_time": 1743119760.9603045,
+            "end_time": 1743119760.9724247,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012120246887207031,
+            "throughput_bps": 7207773.968054135
+        },
+        {
+            "start_time": 1743119760.9879467,
+            "end_time": 1743119761.003433,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01548624038696289,
+            "throughput_bps": 5641136.765095298
+        },
+        {
+            "start_time": 1743119761.0183337,
+            "end_time": 1743119761.0294588,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01112508773803711,
+            "throughput_bps": 7852522.3402340235
+        },
+        {
+            "start_time": 1743119761.04492,
+            "end_time": 1743119761.0574236,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012503623962402344,
+            "throughput_bps": 6986774.4153764015
+        },
+        {
+            "start_time": 1743119761.0780325,
+            "end_time": 1743119761.0945814,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016548871994018555,
+            "throughput_bps": 5278909.6460215235
+        },
+        {
+            "start_time": 1743119761.1090105,
+            "end_time": 1743119761.1179373,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008926868438720703,
+            "throughput_bps": 9786186.566956893
+        },
+        {
+            "start_time": 1743119761.1329796,
+            "end_time": 1743119761.150138,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01715826988220215,
+            "throughput_bps": 5091422.421943391
+        },
+        {
+            "start_time": 1743119761.172111,
+            "end_time": 1743119761.1844227,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012311697006225586,
+            "throughput_bps": 7095691.191541277
+        },
+        {
+            "start_time": 1743119761.1990945,
+            "end_time": 1743119761.209408,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01031351089477539,
+            "throughput_bps": 8470442.402330205
+        },
+        {
+            "start_time": 1743119761.2252836,
+            "end_time": 1743119761.2449818,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.019698143005371094,
+            "throughput_bps": 4434935.81989833
+        },
+        {
+            "start_time": 1743119761.2595623,
+            "end_time": 1743119761.2703805,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010818243026733398,
+            "throughput_bps": 8075248.428429752
+        },
+        {
+            "start_time": 1743119761.2853227,
+            "end_time": 1743119761.2922359,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.006913185119628906,
+            "throughput_bps": 12636722.218236998
+        },
+        {
+            "start_time": 1743119761.3073993,
+            "end_time": 1743119761.3183815,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010982275009155273,
+            "throughput_bps": 7954635.986366498
+        },
+        {
+            "start_time": 1743119761.3330553,
+            "end_time": 1743119761.3485618,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015506505966186523,
+            "throughput_bps": 5633764.3174095545
+        },
+        {
+            "start_time": 1743119761.362567,
+            "end_time": 1743119761.3784518,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015884876251220703,
+            "throughput_bps": 5499570.699726833
+        },
+        {
+            "start_time": 1743119761.3925953,
+            "end_time": 1743119761.4053898,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01279449462890625,
+            "throughput_bps": 6827936.7441860465
+        },
+        {
+            "start_time": 1743119761.4202614,
+            "end_time": 1743119761.4294372,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009175777435302734,
+            "throughput_bps": 9520719.156056749
+        },
+        {
+            "start_time": 1743119761.445053,
+            "end_time": 1743119761.4615242,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016471147537231445,
+            "throughput_bps": 5303819.894912065
+        },
+        {
+            "start_time": 1743119761.476609,
+            "end_time": 1743119761.4884305,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011821508407592773,
+            "throughput_bps": 7389919.880604239
+        },
+        {
+            "start_time": 1743119761.5033472,
+            "end_time": 1743119761.5116565,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008309364318847656,
+            "throughput_bps": 10513439.614369333
+        },
+        {
+            "start_time": 1743119761.5269191,
+            "end_time": 1743119761.542569,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015649795532226562,
+            "throughput_bps": 5582181.557586838
+        },
+        {
+            "start_time": 1743119761.5571737,
+            "end_time": 1743119761.573427,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016253232955932617,
+            "throughput_bps": 5374930.6514500305
+        },
+        {
+            "start_time": 1743119761.5883942,
+            "end_time": 1743119761.598596,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01020193099975586,
+            "throughput_bps": 8563084.773077821
+        },
+        {
+            "start_time": 1743119761.6139832,
+            "end_time": 1743119761.6336854,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01970219612121582,
+            "throughput_bps": 4434023.469390225
+        },
+        {
+            "start_time": 1743119761.648086,
+            "end_time": 1743119761.6612504,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013164281845092773,
+            "throughput_bps": 6636138.684053247
+        },
+        {
+            "start_time": 1743119761.675952,
+            "end_time": 1743119761.6884344,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012482404708862305,
+            "throughput_bps": 6998651.464807563
+        },
+        {
+            "start_time": 1743119761.703112,
+            "end_time": 1743119761.7111142,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008002281188964844,
+            "throughput_bps": 10916887.064712191
+        },
+        {
+            "start_time": 1743119761.7263777,
+            "end_time": 1743119761.7373881,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011010408401489258,
+            "throughput_bps": 7934310.591801823
+        },
+        {
+            "start_time": 1743119761.7525766,
+            "end_time": 1743119761.7624176,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009840965270996094,
+            "throughput_bps": 8877177.959104564
+        },
+        {
+            "start_time": 1743119761.7774954,
+            "end_time": 1743119761.7864172,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00892186164855957,
+            "throughput_bps": 9791678.400897892
+        },
+        {
+            "start_time": 1743119761.8015187,
+            "end_time": 1743119761.8174038,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015885114669799805,
+            "throughput_bps": 5499488.157053446
+        },
+        {
+            "start_time": 1743119761.8316197,
+            "end_time": 1743119761.8527632,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.021143436431884766,
+            "throughput_bps": 4131778.686091879
+        },
+        {
+            "start_time": 1743119761.8668027,
+            "end_time": 1743119761.8794246,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012621879577636719,
+            "throughput_bps": 6921314.6475255005
+        },
+        {
+            "start_time": 1743119761.8942423,
+            "end_time": 1743119761.9074233,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013180971145629883,
+            "throughput_bps": 6627736.229356969
+        },
+        {
+            "start_time": 1743119761.921882,
+            "end_time": 1743119761.9333808,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01149892807006836,
+            "throughput_bps": 7597229.886792453
+        },
+        {
+            "start_time": 1743119761.9479182,
+            "end_time": 1743119761.9594095,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01149129867553711,
+            "throughput_bps": 7602273.900161833
+        },
+        {
+            "start_time": 1743119761.9738786,
+            "end_time": 1743119761.982417,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008538484573364258,
+            "throughput_bps": 10231323.749476448
+        },
+        {
+            "start_time": 1743119761.997592,
+            "end_time": 1743119762.009397,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011805057525634766,
+            "throughput_bps": 7400218.068425092
+        },
+        {
+            "start_time": 1743119762.0243945,
+            "end_time": 1743119762.0404496,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01605510711669922,
+            "throughput_bps": 5441259.243243244
+        },
+        {
+            "start_time": 1743119762.0555725,
+            "end_time": 1743119762.0704367,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014864206314086914,
+            "throughput_bps": 5877205.829497153
+        },
+        {
+            "start_time": 1743119762.093117,
+            "end_time": 1743119762.1135783,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.020461320877075195,
+            "throughput_bps": 4269519.085538505
+        },
+        {
+            "start_time": 1743119762.1370218,
+            "end_time": 1743119762.1484196,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011397838592529297,
+            "throughput_bps": 7664611.083127641
+        },
+        {
+            "start_time": 1743119762.164074,
+            "end_time": 1743119762.179382,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015308141708374023,
+            "throughput_bps": 5706767.13504758
+        },
+        {
+            "start_time": 1743119762.1938207,
+            "end_time": 1743119762.2054284,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011607646942138672,
+            "throughput_bps": 7526073.151213901
+        },
+        {
+            "start_time": 1743119762.220183,
+            "end_time": 1743119762.2433238,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.023140907287597656,
+            "throughput_bps": 3775132.8811044716
+        },
+        {
+            "start_time": 1743119762.259309,
+            "end_time": 1743119762.2714255,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012116432189941406,
+            "throughput_bps": 7210043.239669422
+        },
+        {
+            "start_time": 1743119762.2867663,
+            "end_time": 1743119762.3027766,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016010284423828125,
+            "throughput_bps": 5456492.694781987
+        },
+        {
+            "start_time": 1743119762.3177402,
+            "end_time": 1743119762.3294392,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01169896125793457,
+            "throughput_bps": 7467329.626444395
+        },
+        {
+            "start_time": 1743119762.344947,
+            "end_time": 1743119762.3534267,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008479595184326172,
+            "throughput_bps": 10302378.60428499
+        },
+        {
+            "start_time": 1743119762.3694572,
+            "end_time": 1743119762.378927,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009469747543334961,
+            "throughput_bps": 9225166.732294368
+        },
+        {
+            "start_time": 1743119762.3946493,
+            "end_time": 1743119762.402424,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007774829864501953,
+            "throughput_bps": 11236258.737810487
+        },
+        {
+            "start_time": 1743119762.4176192,
+            "end_time": 1743119762.4293833,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011764049530029297,
+            "throughput_bps": 7426014.296947833
+        },
+        {
+            "start_time": 1743119762.4446218,
+            "end_time": 1743119762.4568365,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01221466064453125,
+            "throughput_bps": 7152061.161773891
+        },
+        {
+            "start_time": 1743119762.4717886,
+            "end_time": 1743119762.4945908,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.022802114486694336,
+            "throughput_bps": 3831223.637219126
+        },
+        {
+            "start_time": 1743119762.5090086,
+            "end_time": 1743119762.5214276,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012418985366821289,
+            "throughput_bps": 7034391.089097506
+        },
+        {
+            "start_time": 1743119762.5366175,
+            "end_time": 1743119762.5504203,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013802766799926758,
+            "throughput_bps": 6329165.830756741
+        },
+        {
+            "start_time": 1743119762.5655336,
+            "end_time": 1743119762.5744245,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008890867233276367,
+            "throughput_bps": 9825813.130245904
+        },
+        {
+            "start_time": 1743119762.589871,
+            "end_time": 1743119762.598587,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008716106414794922,
+            "throughput_bps": 10022823.935663877
+        },
+        {
+            "start_time": 1743119762.6138742,
+            "end_time": 1743119762.624416,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010541915893554688,
+            "throughput_bps": 8286918.704541342
+        },
+        {
+            "start_time": 1743119762.6396234,
+            "end_time": 1743119762.6601458,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.020522356033325195,
+            "throughput_bps": 4256821.188470787
+        },
+        {
+            "start_time": 1743119762.6755114,
+            "end_time": 1743119762.6886015,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013090133666992188,
+            "throughput_bps": 6673728.643450386
+        },
+        {
+            "start_time": 1743119762.7030668,
+            "end_time": 1743119762.715405,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01233816146850586,
+            "throughput_bps": 7080471.448115942
+        },
+        {
+            "start_time": 1743119762.7301092,
+            "end_time": 1743119762.7414236,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01131439208984375,
+            "throughput_bps": 7721139.527983816
+        },
+        {
+            "start_time": 1743119762.7563512,
+            "end_time": 1743119762.7674372,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011085987091064453,
+            "throughput_bps": 7880218.448965547
+        },
+        {
+            "start_time": 1743119762.7822413,
+            "end_time": 1743119762.794439,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012197732925415039,
+            "throughput_bps": 7161986.619495318
+        },
+        {
+            "start_time": 1743119762.809134,
+            "end_time": 1743119762.8255627,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016428709030151367,
+            "throughput_bps": 5317520.679176281
+        },
+        {
+            "start_time": 1743119762.8397171,
+            "end_time": 1743119762.85239,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012672901153564453,
+            "throughput_bps": 6893449.174850435
+        },
+        {
+            "start_time": 1743119762.8671355,
+            "end_time": 1743119762.8835924,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01645684242248535,
+            "throughput_bps": 5308430.241796451
+        },
+        {
+            "start_time": 1743119762.8979,
+            "end_time": 1743119762.9123807,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0144805908203125,
+            "throughput_bps": 6032903.01369863
+        },
+        {
+            "start_time": 1743119762.9268582,
+            "end_time": 1743119762.9425616,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015703439712524414,
+            "throughput_bps": 5563112.3880664995
+        },
+        {
+            "start_time": 1743119762.9573889,
+            "end_time": 1743119762.9736714,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01628255844116211,
+            "throughput_bps": 5365250.204117492
+        },
+        {
+            "start_time": 1743119762.9881966,
+            "end_time": 1743119762.9969652,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008768558502197266,
+            "throughput_bps": 9962869.036924249
+        },
+        {
+            "start_time": 1743119763.0125527,
+            "end_time": 1743119763.027381,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014828205108642578,
+            "throughput_bps": 5891475.02074155
+        },
+        {
+            "start_time": 1743119763.0421371,
+            "end_time": 1743119763.0543888,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012251615524291992,
+            "throughput_bps": 7130488.205966489
+        },
+        {
+            "start_time": 1743119763.069466,
+            "end_time": 1743119763.084427,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014961004257202148,
+            "throughput_bps": 5839180.211311374
+        },
+        {
+            "start_time": 1743119763.0994225,
+            "end_time": 1743119763.114396,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014973640441894531,
+            "throughput_bps": 5834252.554614356
+        },
+        {
+            "start_time": 1743119763.1292074,
+            "end_time": 1743119763.1452596,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01605224609375,
+            "throughput_bps": 5442229.049429658
+        },
+        {
+            "start_time": 1743119763.1599154,
+            "end_time": 1743119763.1724224,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012506961822509766,
+            "throughput_bps": 6984909.783827062
+        },
+        {
+            "start_time": 1743119763.187196,
+            "end_time": 1743119763.1962276,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009031534194946289,
+            "throughput_bps": 9672775.202344183
+        },
+        {
+            "start_time": 1743119763.2113204,
+            "end_time": 1743119763.2234242,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012103796005249023,
+            "throughput_bps": 7217570.418578998
+        },
+        {
+            "start_time": 1743119763.237993,
+            "end_time": 1743119763.2450898,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007096767425537109,
+            "throughput_bps": 12309829.921386817
+        },
+        {
+            "start_time": 1743119763.2602417,
+            "end_time": 1743119763.2707691,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010527372360229492,
+            "throughput_bps": 8298367.057864342
+        },
+        {
+            "start_time": 1743119763.2860336,
+            "end_time": 1743119763.2927425,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.006708860397338867,
+            "throughput_bps": 13021585.608585948
+        },
+        {
+            "start_time": 1743119763.3081937,
+            "end_time": 1743119763.3204129,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01221919059753418,
+            "throughput_bps": 7149409.717664045
+        },
+        {
+            "start_time": 1743119763.3348126,
+            "end_time": 1743119763.3484275,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013614892959594727,
+            "throughput_bps": 6416502.888363541
+        },
+        {
+            "start_time": 1743119763.36407,
+            "end_time": 1743119763.3731203,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009050369262695312,
+            "throughput_bps": 9652644.821917808
+        },
+        {
+            "start_time": 1743119763.3889298,
+            "end_time": 1743119763.4014342,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012504339218139648,
+            "throughput_bps": 6986374.76767022
+        },
+        {
+            "start_time": 1743119763.4169178,
+            "end_time": 1743119763.4294267,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012508869171142578,
+            "throughput_bps": 6983844.726870735
+        },
+        {
+            "start_time": 1743119763.4447556,
+            "end_time": 1743119763.4574206,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012665033340454102,
+            "throughput_bps": 6897731.5457163835
+        },
+        {
+            "start_time": 1743119763.4728556,
+            "end_time": 1743119763.4893706,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016515016555786133,
+            "throughput_bps": 5289731.30029306
+        },
+        {
+            "start_time": 1743119763.5039787,
+            "end_time": 1743119763.5124285,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008449792861938477,
+            "throughput_bps": 10338714.97531108
+        },
+        {
+            "start_time": 1743119763.5280151,
+            "end_time": 1743119763.5396545,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01163935661315918,
+            "throughput_bps": 7505569.500399435
+        },
+        {
+            "start_time": 1743119763.5552077,
+            "end_time": 1743119763.5703838,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015176057815551758,
+            "throughput_bps": 5756435.6344555635
+        },
+        {
+            "start_time": 1743119763.585295,
+            "end_time": 1743119763.597595,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01230001449584961,
+            "throughput_bps": 7102430.654002714
+        },
+        {
+            "start_time": 1743119763.6180446,
+            "end_time": 1743119763.6308074,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012762784957885742,
+            "throughput_bps": 6844901.037529656
+        },
+        {
+            "start_time": 1743119763.6462963,
+            "end_time": 1743119763.6557345,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009438276290893555,
+            "throughput_bps": 9255927.386263167
+        },
+        {
+            "start_time": 1743119763.6711829,
+            "end_time": 1743119763.6823978,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011214971542358398,
+            "throughput_bps": 7789587.309254023
+        },
+        {
+            "start_time": 1743119763.697934,
+            "end_time": 1743119763.7104168,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012482881546020508,
+            "throughput_bps": 6998384.121320931
+        },
+        {
+            "start_time": 1743119763.7259147,
+            "end_time": 1743119763.7364216,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010506868362426758,
+            "throughput_bps": 8314561.198121129
+        },
+        {
+            "start_time": 1743119763.7520773,
+            "end_time": 1743119763.7610984,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00902104377746582,
+            "throughput_bps": 9684023.507149087
+        },
+        {
+            "start_time": 1743119763.777031,
+            "end_time": 1743119763.7936301,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016599178314208984,
+            "throughput_bps": 5262911.112004826
+        },
+        {
+            "start_time": 1743119763.8084905,
+            "end_time": 1743119763.8223827,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013892173767089844,
+            "throughput_bps": 6288432.715040846
+        },
+        {
+            "start_time": 1743119763.8374648,
+            "end_time": 1743119763.8483813,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010916471481323242,
+            "throughput_bps": 8002585.830912705
+        },
+        {
+            "start_time": 1743119763.8638558,
+            "end_time": 1743119763.8774016,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013545751571655273,
+            "throughput_bps": 6449254.553198979
+        },
+        {
+            "start_time": 1743119763.8926554,
+            "end_time": 1743119763.9033816,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010726213455200195,
+            "throughput_bps": 8144533.051190291
+        },
+        {
+            "start_time": 1743119763.9189079,
+            "end_time": 1743119763.927428,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008520126342773438,
+            "throughput_bps": 10253369.079919409
+        },
+        {
+            "start_time": 1743119763.9430444,
+            "end_time": 1743119763.9514287,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008384227752685547,
+            "throughput_bps": 10419564.279133253
+        },
+        {
+            "start_time": 1743119763.9672248,
+            "end_time": 1743119763.9783804,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01115560531616211,
+            "throughput_bps": 7831040.7659756355
+        },
+        {
+            "start_time": 1743119763.9938145,
+            "end_time": 1743119764.001429,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007614612579345703,
+            "throughput_bps": 11472678.234078526
+        },
+        {
+            "start_time": 1743119764.0173216,
+            "end_time": 1743119764.030375,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013053417205810547,
+            "throughput_bps": 6692500.409863014
+        },
+        {
+            "start_time": 1743119764.0456123,
+            "end_time": 1743119764.0574288,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01181650161743164,
+            "throughput_bps": 7393051.076227755
+        },
+        {
+            "start_time": 1743119764.072844,
+            "end_time": 1743119764.089217,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0163729190826416,
+            "throughput_bps": 5335639.879428596
+        },
+        {
+            "start_time": 1743119764.1033316,
+            "end_time": 1743119764.1193795,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016047954559326172,
+            "throughput_bps": 5443684.407071757
+        },
+        {
+            "start_time": 1743119764.133424,
+            "end_time": 1743119764.1454186,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011994600296020508,
+            "throughput_bps": 7283277.295116182
+        },
+        {
+            "start_time": 1743119764.1601183,
+            "end_time": 1743119764.1753793,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015260934829711914,
+            "throughput_bps": 5724419.963442641
+        },
+        {
+            "start_time": 1743119764.189628,
+            "end_time": 1743119764.206423,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01679515838623047,
+            "throughput_bps": 5201499.026744648
+        },
+        {
+            "start_time": 1743119764.220278,
+            "end_time": 1743119764.233438,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013159990310668945,
+            "throughput_bps": 6638302.759932605
+        },
+        {
+            "start_time": 1743119764.256372,
+            "end_time": 1743119764.267428,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011055946350097656,
+            "throughput_bps": 7901630.238937289
+        },
+        {
+            "start_time": 1743119764.2827165,
+            "end_time": 1743119764.2954366,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012720108032226562,
+            "throughput_bps": 6867866.198830409
+        },
+        {
+            "start_time": 1743119764.3186605,
+            "end_time": 1743119764.32807,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009409427642822266,
+            "throughput_bps": 9284305.413267115
+        },
+        {
+            "start_time": 1743119764.3503578,
+            "end_time": 1743119764.3594272,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009069442749023438,
+            "throughput_bps": 9632344.83280757
+        },
+        {
+            "start_time": 1743119764.375537,
+            "end_time": 1743119764.38638,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010843038558959961,
+            "throughput_bps": 8056782.194859166
+        },
+        {
+            "start_time": 1743119764.4020984,
+            "end_time": 1743119764.413385,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011286497116088867,
+            "throughput_bps": 7740222.595323095
+        },
+        {
+            "start_time": 1743119764.4291346,
+            "end_time": 1743119764.448925,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0197904109954834,
+            "throughput_bps": 4414259.00755358
+        },
+        {
+            "start_time": 1743119764.4639618,
+            "end_time": 1743119764.4797945,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01583266258239746,
+            "throughput_bps": 5517707.432047826
+        },
+        {
+            "start_time": 1743119764.4948516,
+            "end_time": 1743119764.5030005,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008148908615112305,
+            "throughput_bps": 10720454.005090846
+        },
+        {
+            "start_time": 1743119764.5187488,
+            "end_time": 1743119764.5387414,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.019992589950561523,
+            "throughput_bps": 4369618.954624053
+        },
+        {
+            "start_time": 1743119764.55361,
+            "end_time": 1743119764.5612147,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0076045989990234375,
+            "throughput_bps": 11487785.221971408
+        },
+        {
+            "start_time": 1743119764.577083,
+            "end_time": 1743119764.5917792,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014696121215820312,
+            "throughput_bps": 5944425.656067489
+        },
+        {
+            "start_time": 1743119764.6068163,
+            "end_time": 1743119764.6166306,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009814262390136719,
+            "throughput_bps": 8901331.198134292
+        },
+        {
+            "start_time": 1743119764.6322525,
+            "end_time": 1743119764.6433804,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011127948760986328,
+            "throughput_bps": 7850503.437459827
+        },
+        {
+            "start_time": 1743119764.658874,
+            "end_time": 1743119764.6693845,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010510444641113281,
+            "throughput_bps": 8311732.089647038
+        },
+        {
+            "start_time": 1743119764.684851,
+            "end_time": 1743119764.6993816,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014530658721923828,
+            "throughput_bps": 6012115.601352016
+        },
+        {
+            "start_time": 1743119764.7146049,
+            "end_time": 1743119764.7253811,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010776281356811523,
+            "throughput_bps": 8106692.569304631
+        },
+        {
+            "start_time": 1743119764.7319818,
+            "end_time": 1743119764.73938,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007398128509521484,
+            "throughput_bps": 11808391.796326136
+        },
+        {
+            "start_time": 1743119764.7575514,
+            "end_time": 1743119764.7683847,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010833263397216797,
+            "throughput_bps": 8064052.058629341
+        },
+        {
+            "start_time": 1743119764.7836938,
+            "end_time": 1743119764.7911203,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00742650032043457,
+            "throughput_bps": 11763279.637869595
+        },
+        {
+            "start_time": 1743119764.8064623,
+            "end_time": 1743119764.8151176,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008655309677124023,
+            "throughput_bps": 10093226.384596314
+        },
+        {
+            "start_time": 1743119764.8305154,
+            "end_time": 1743119764.8394263,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008910894393920898,
+            "throughput_bps": 9803729.697391305
+        },
+        {
+            "start_time": 1743119764.8549507,
+            "end_time": 1743119764.8634133,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008462667465209961,
+            "throughput_bps": 10322986.263980843
+        },
+        {
+            "start_time": 1743119764.8788002,
+            "end_time": 1743119764.8905685,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011768341064453125,
+            "throughput_bps": 7423306.26904376
+        },
+        {
+            "start_time": 1743119764.9055657,
+            "end_time": 1743119764.9173803,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011814594268798828,
+            "throughput_bps": 7394244.610727691
+        },
+        {
+            "start_time": 1743119764.9323394,
+            "end_time": 1743119764.9424448,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010105371475219727,
+            "throughput_bps": 8644907.33608588
+        },
+        {
+            "start_time": 1743119764.9576552,
+            "end_time": 1743119764.9734154,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015760183334350586,
+            "throughput_bps": 5543082.726048742
+        },
+        {
+            "start_time": 1743119764.9880397,
+            "end_time": 1743119764.9964306,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00839090347290039,
+            "throughput_bps": 10411274.576348241
+        },
+        {
+            "start_time": 1743119765.0115743,
+            "end_time": 1743119765.0223792,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010804891586303711,
+            "throughput_bps": 8085226.890266775
+        },
+        {
+            "start_time": 1743119765.0372605,
+            "end_time": 1743119765.052427,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015166521072387695,
+            "throughput_bps": 5760055.294358072
+        },
+        {
+            "start_time": 1743119765.0667865,
+            "end_time": 1743119765.083215,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016428470611572266,
+            "throughput_bps": 5317597.849824399
+        },
+        {
+            "start_time": 1743119765.0981047,
+            "end_time": 1743119765.1143186,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01621389389038086,
+            "throughput_bps": 5387971.611916595
+        },
+        {
+            "start_time": 1743119765.1294856,
+            "end_time": 1743119765.144428,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014942407608032227,
+            "throughput_bps": 5846447.392657125
+        },
+        {
+            "start_time": 1743119765.1587815,
+            "end_time": 1743119765.170425,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011643409729003906,
+            "throughput_bps": 7502956.782701286
+        },
+        {
+            "start_time": 1743119765.1852973,
+            "end_time": 1743119765.1974292,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012131929397583008,
+            "throughput_bps": 7200833.201139825
+        },
+        {
+            "start_time": 1743119765.2122095,
+            "end_time": 1743119765.2244298,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012220382690429688,
+            "throughput_bps": 7148712.295926331
+        },
+        {
+            "start_time": 1743119765.2391646,
+            "end_time": 1743119765.2504418,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011277198791503906,
+            "throughput_bps": 7746604.597040169
+        },
+        {
+            "start_time": 1743119765.2653537,
+            "end_time": 1743119765.2774262,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012072563171386719,
+            "throughput_bps": 7236242.938620744
+        },
+        {
+            "start_time": 1743119765.2921035,
+            "end_time": 1743119765.304424,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012320518493652344,
+            "throughput_bps": 7090610.678845112
+        },
+        {
+            "start_time": 1743119765.3190775,
+            "end_time": 1743119765.3314228,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012345314025878906,
+            "throughput_bps": 7076369.205098494
+        },
+        {
+            "start_time": 1743119765.346165,
+            "end_time": 1743119765.3574264,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011261463165283203,
+            "throughput_bps": 7757428.916458483
+        },
+        {
+            "start_time": 1743119765.3724165,
+            "end_time": 1743119765.3844268,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012010335922241211,
+            "throughput_bps": 7273734.936774193
+        },
+        {
+            "start_time": 1743119765.3990715,
+            "end_time": 1743119765.4139066,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014835119247436523,
+            "throughput_bps": 5888729.206884914
+        },
+        {
+            "start_time": 1743119765.4281693,
+            "end_time": 1743119765.440432,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012262821197509766,
+            "throughput_bps": 7123972.4198001325
+        },
+        {
+            "start_time": 1743119765.4552102,
+            "end_time": 1743119765.4684188,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013208627700805664,
+            "throughput_bps": 6613858.909405967
+        },
+        {
+            "start_time": 1743119765.4835722,
+            "end_time": 1743119765.49541,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01183772087097168,
+            "throughput_bps": 7379798.945439165
+        },
+        {
+            "start_time": 1743119765.5100682,
+            "end_time": 1743119765.5224278,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012359619140625,
+            "throughput_bps": 7068178.962962963
+        },
+        {
+            "start_time": 1743119765.5371296,
+            "end_time": 1743119765.5484238,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011294126510620117,
+            "throughput_bps": 7734993.929619388
+        },
+        {
+            "start_time": 1743119765.5632832,
+            "end_time": 1743119765.575415,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012131690979003906,
+            "throughput_bps": 7200974.715824228
+        },
+        {
+            "start_time": 1743119765.5901215,
+            "end_time": 1743119765.6098328,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01971125602722168,
+            "throughput_bps": 4431985.454369519
+        },
+        {
+            "start_time": 1743119765.625181,
+            "end_time": 1743119765.63742,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01223897933959961,
+            "throughput_bps": 7137850.1079206765
+        },
+        {
+            "start_time": 1743119765.652152,
+            "end_time": 1743119765.6674235,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015271425247192383,
+            "throughput_bps": 5720487.681139057
+        },
+        {
+            "start_time": 1743119765.681809,
+            "end_time": 1743119765.6927865,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010977506637573242,
+            "throughput_bps": 7958091.293790587
+        },
+        {
+            "start_time": 1743119765.7077453,
+            "end_time": 1743119765.7170398,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009294509887695312,
+            "throughput_bps": 9399096.999794787
+        },
+        {
+            "start_time": 1743119765.7321846,
+            "end_time": 1743119765.7528286,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.020643949508666992,
+            "throughput_bps": 4231748.385323432
+        },
+        {
+            "start_time": 1743119765.767854,
+            "end_time": 1743119765.780423,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012568950653076172,
+            "throughput_bps": 6950460.894571114
+        },
+        {
+            "start_time": 1743119765.7947862,
+            "end_time": 1743119765.8103828,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015596628189086914,
+            "throughput_bps": 5601210.655334241
+        },
+        {
+            "start_time": 1743119765.8245578,
+            "end_time": 1743119765.8354247,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010866880416870117,
+            "throughput_bps": 8039105.672349108
+        },
+        {
+            "start_time": 1743119765.850081,
+            "end_time": 1743119765.871636,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.021554946899414062,
+            "throughput_bps": 4052897.945314574
+        },
+        {
+            "start_time": 1743119765.8937502,
+            "end_time": 1743119765.9054365,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011686325073242188,
+            "throughput_bps": 7475403.897502856
+        },
+        {
+            "start_time": 1743119765.9273958,
+            "end_time": 1743119765.9354308,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008034944534301758,
+            "throughput_bps": 10872508.15821489
+        },
+        {
+            "start_time": 1743119765.9506052,
+            "end_time": 1743119765.9613817,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010776519775390625,
+            "throughput_bps": 8106513.217699115
+        },
+        {
+            "start_time": 1743119765.9770238,
+            "end_time": 1743119765.989429,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012405157089233398,
+            "throughput_bps": 7042232.466029867
+        },
+        {
+            "start_time": 1743119766.0040498,
+            "end_time": 1743119766.0129724,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008922576904296875,
+            "throughput_bps": 9790893.475844378
+        },
+        {
+            "start_time": 1743119766.0280344,
+            "end_time": 1743119766.0404274,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012392997741699219,
+            "throughput_bps": 7049141.928434013
+        },
+        {
+            "start_time": 1743119766.0550203,
+            "end_time": 1743119766.063994,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00897359848022461,
+            "throughput_bps": 9735224.970508529
+        },
+        {
+            "start_time": 1743119766.0794535,
+            "end_time": 1743119766.0999892,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.020535707473754883,
+            "throughput_bps": 4254053.585037094
+        },
+        {
+            "start_time": 1743119766.115071,
+            "end_time": 1743119766.1245346,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00946354866027832,
+            "throughput_bps": 9231209.468672058
+        },
+        {
+            "start_time": 1743119766.1394126,
+            "end_time": 1743119766.1514256,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012012958526611328,
+            "throughput_bps": 7272146.974159488
+        },
+        {
+            "start_time": 1743119766.1660702,
+            "end_time": 1743119766.1784372,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012367010116577148,
+            "throughput_bps": 7063954.761620173
+        },
+        {
+            "start_time": 1743119766.193121,
+            "end_time": 1743119766.2036207,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010499715805053711,
+            "throughput_bps": 8320225.19675742
+        },
+        {
+            "start_time": 1743119766.2187748,
+            "end_time": 1743119766.2323272,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013552427291870117,
+            "throughput_bps": 6446077.748183593
+        },
+        {
+            "start_time": 1743119766.246864,
+            "end_time": 1743119766.2594237,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012559652328491211,
+            "throughput_bps": 6955606.549858578
+        },
+        {
+            "start_time": 1743119766.2742138,
+            "end_time": 1743119766.2827575,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008543729782104492,
+            "throughput_bps": 10225042.48472164
+        },
+        {
+            "start_time": 1743119766.298919,
+            "end_time": 1743119766.3064623,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007543325424194336,
+            "throughput_bps": 11581099.195296943
+        },
+        {
+            "start_time": 1743119766.322213,
+            "end_time": 1743119766.3315485,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009335517883300781,
+            "throughput_bps": 9357809.721115537
+        },
+        {
+            "start_time": 1743119766.347209,
+            "end_time": 1743119766.3558035,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008594512939453125,
+            "throughput_bps": 10164624.873501997
+        },
+        {
+            "start_time": 1743119766.3715894,
+            "end_time": 1743119766.3815112,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009921789169311523,
+            "throughput_bps": 8804863.569386039
+        },
+        {
+            "start_time": 1743119766.3972924,
+            "end_time": 1743119766.4084249,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011132478713989258,
+            "throughput_bps": 7847308.963656222
+        },
+        {
+            "start_time": 1743119766.4240086,
+            "end_time": 1743119766.4332888,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009280204772949219,
+            "throughput_bps": 9413585.382797247
+        },
+        {
+            "start_time": 1743119766.4489994,
+            "end_time": 1743119766.466041,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.017041683197021484,
+            "throughput_bps": 5126254.196256191
+        },
+        {
+            "start_time": 1743119766.4806201,
+            "end_time": 1743119766.4929554,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01233530044555664,
+            "throughput_bps": 7082113.6773744635
+        },
+        {
+            "start_time": 1743119766.5078282,
+            "end_time": 1743119766.5221076,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014279365539550781,
+            "throughput_bps": 6117918.8779803645
+        },
+        {
+            "start_time": 1743119766.5365164,
+            "end_time": 1743119766.5449324,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008415937423706055,
+            "throughput_bps": 10380305.318564266
+        },
+        {
+            "start_time": 1743119766.5601726,
+            "end_time": 1743119766.576037,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01586437225341797,
+            "throughput_bps": 5506678.65103697
+        },
+        {
+            "start_time": 1743119766.59007,
+            "end_time": 1743119766.605537,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015466928482055664,
+            "throughput_bps": 5648180.251260155
+        },
+        {
+            "start_time": 1743119766.6195142,
+            "end_time": 1743119766.6271975,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007683277130126953,
+            "throughput_bps": 11370148.247998511
+        },
+        {
+            "start_time": 1743119766.6424875,
+            "end_time": 1743119766.6513844,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008896827697753906,
+            "throughput_bps": 9819230.288348163
+        },
+        {
+            "start_time": 1743119766.666355,
+            "end_time": 1743119766.6787503,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012395381927490234,
+            "throughput_bps": 7047786.063473745
+        },
+        {
+            "start_time": 1743119766.6932237,
+            "end_time": 1743119766.7043808,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011157035827636719,
+            "throughput_bps": 7830036.700572698
+        },
+        {
+            "start_time": 1743119766.7240796,
+            "end_time": 1743119766.7324612,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00838160514831543,
+            "throughput_bps": 10422824.56094439
+        },
+        {
+            "start_time": 1743119766.7475154,
+            "end_time": 1743119766.7614913,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013975858688354492,
+            "throughput_bps": 6250778.714068817
+        },
+        {
+            "start_time": 1743119766.776435,
+            "end_time": 1743119766.787589,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0111541748046875,
+            "throughput_bps": 7832045.0889192885
+        },
+        {
+            "start_time": 1743119766.8025904,
+            "end_time": 1743119766.8154254,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012835025787353516,
+            "throughput_bps": 6806375.105695286
+        },
+        {
+            "start_time": 1743119766.8308744,
+            "end_time": 1743119766.8386822,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007807731628417969,
+            "throughput_bps": 11188909.168193478
+        },
+        {
+            "start_time": 1743119766.859317,
+            "end_time": 1743119766.874438,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015120983123779297,
+            "throughput_bps": 5777402.122922645
+        },
+        {
+            "start_time": 1743119766.8977575,
+            "end_time": 1743119766.9179845,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.02022695541381836,
+            "throughput_bps": 4318989.102053326
+        },
+        {
+            "start_time": 1743119766.9338849,
+            "end_time": 1743119766.9454265,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011541604995727539,
+            "throughput_bps": 7569137.917329422
+        },
+        {
+            "start_time": 1743119766.9607525,
+            "end_time": 1743119766.972427,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01167440414428711,
+            "throughput_bps": 7483037.157211126
+        },
+        {
+            "start_time": 1743119766.9878063,
+            "end_time": 1743119766.9956095,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007803201675415039,
+            "throughput_bps": 11195404.60875676
+        },
+        {
+            "start_time": 1743119767.0114918,
+            "end_time": 1743119767.0224285,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010936737060546875,
+            "throughput_bps": 7987757.181723055
+        },
+        {
+            "start_time": 1743119767.037471,
+            "end_time": 1743119767.0446486,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007177591323852539,
+            "throughput_bps": 12171213.999003489
+        },
+        {
+            "start_time": 1743119767.0603602,
+            "end_time": 1743119767.07142,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011059761047363281,
+            "throughput_bps": 7898904.834008795
+        },
+        {
+            "start_time": 1743119767.0866172,
+            "end_time": 1743119767.09826,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011642694473266602,
+            "throughput_bps": 7503417.7183462
+        },
+        {
+            "start_time": 1743119767.113658,
+            "end_time": 1743119767.122255,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008597135543823242,
+            "throughput_bps": 10161524.097728722
+        },
+        {
+            "start_time": 1743119767.1376698,
+            "end_time": 1743119767.147531,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009861230850219727,
+            "throughput_bps": 8858934.683397403
+        },
+        {
+            "start_time": 1743119767.1627321,
+            "end_time": 1743119767.1773803,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014648199081420898,
+            "throughput_bps": 5963873.068246554
+        },
+        {
+            "start_time": 1743119767.191777,
+            "end_time": 1743119767.2023807,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010603666305541992,
+            "throughput_bps": 8238659.863743676
+        },
+        {
+            "start_time": 1743119767.217107,
+            "end_time": 1743119767.2323816,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015274524688720703,
+            "throughput_bps": 5719326.904130116
+        },
+        {
+            "start_time": 1743119767.246482,
+            "end_time": 1743119767.2603772,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013895273208618164,
+            "throughput_bps": 6287030.034488084
+        },
+        {
+            "start_time": 1743119767.2745185,
+            "end_time": 1743119767.28538,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010861396789550781,
+            "throughput_bps": 8043164.400737554
+        },
+        {
+            "start_time": 1743119767.3003397,
+            "end_time": 1743119767.3074958,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0071561336517333984,
+            "throughput_bps": 12207709.393303348
+        },
+        {
+            "start_time": 1743119767.3226604,
+            "end_time": 1743119767.3324273,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009766817092895508,
+            "throughput_bps": 8944572.133284511
+        },
+        {
+            "start_time": 1743119767.3474276,
+            "end_time": 1743119767.3623865,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014958858489990234,
+            "throughput_bps": 5840017.8100793725
+        },
+        {
+            "start_time": 1743119767.3769853,
+            "end_time": 1743119767.3894272,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012441873550415039,
+            "throughput_bps": 7021450.559356137
+        },
+        {
+            "start_time": 1743119767.4109855,
+            "end_time": 1743119767.424465,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013479471206665039,
+            "throughput_bps": 6480966.401471603
+        },
+        {
+            "start_time": 1743119767.4469395,
+            "end_time": 1743119767.4630668,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016127347946166992,
+            "throughput_bps": 5416885.670948952
+        },
+        {
+            "start_time": 1743119767.484628,
+            "end_time": 1743119767.4945347,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009906768798828125,
+            "throughput_bps": 8818213.261455525
+        },
+        {
+            "start_time": 1743119767.5095599,
+            "end_time": 1743119767.5258486,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01628875732421875,
+            "throughput_bps": 5363208.393442623
+        },
+        {
+            "start_time": 1743119767.5474083,
+            "end_time": 1743119767.5590546,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011646270751953125,
+            "throughput_bps": 7501113.606288896
+        },
+        {
+            "start_time": 1743119767.5746682,
+            "end_time": 1743119767.5874386,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012770414352416992,
+            "throughput_bps": 6840811.706588503
+        },
+        {
+            "start_time": 1743119767.6102118,
+            "end_time": 1743119767.622449,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012237071990966797,
+            "throughput_bps": 7138962.659081168
+        },
+        {
+            "start_time": 1743119767.644883,
+            "end_time": 1743119767.6564212,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011538267135620117,
+            "throughput_bps": 7571327.56359128
+        },
+        {
+            "start_time": 1743119767.6718962,
+            "end_time": 1743119767.680267,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00837087631225586,
+            "throughput_bps": 10436183.350612361
+        },
+        {
+            "start_time": 1743119767.6958303,
+            "end_time": 1743119767.707428,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011597633361816406,
+            "throughput_bps": 7532571.281966943
+        },
+        {
+            "start_time": 1743119767.7226796,
+            "end_time": 1743119767.7301931,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007513523101806641,
+            "throughput_bps": 11627035.521990227
+        },
+        {
+            "start_time": 1743119767.7459307,
+            "end_time": 1743119767.7574306,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011499881744384766,
+            "throughput_bps": 7596599.855703446
+        },
+        {
+            "start_time": 1743119767.7728398,
+            "end_time": 1743119767.7801142,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0072743892669677734,
+            "throughput_bps": 12009255.594375798
+        },
+        {
+            "start_time": 1743119767.7960129,
+            "end_time": 1743119767.8084264,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012413501739501953,
+            "throughput_bps": 7037498.5103522455
+        },
+        {
+            "start_time": 1743119767.8236375,
+            "end_time": 1743119767.8399498,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016312360763549805,
+            "throughput_bps": 5355448.010640319
+        },
+        {
+            "start_time": 1743119767.8546848,
+            "end_time": 1743119767.8664186,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011733770370483398,
+            "throughput_bps": 7445177.231331911
+        },
+        {
+            "start_time": 1743119767.8815494,
+            "end_time": 1743119767.889518,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007968664169311523,
+            "throughput_bps": 10962941.610268379
+        },
+        {
+            "start_time": 1743119767.9053473,
+            "end_time": 1743119767.9163837,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011036396026611328,
+            "throughput_bps": 7915627.510045366
+        },
+        {
+            "start_time": 1743119767.9316852,
+            "end_time": 1743119767.943425,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011739730834960938,
+            "throughput_bps": 7441397.18602762
+        },
+        {
+            "start_time": 1743119767.9583507,
+            "end_time": 1743119767.9733806,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0150299072265625,
+            "throughput_bps": 5812411.1269035535
+        },
+        {
+            "start_time": 1743119767.9876919,
+            "end_time": 1743119768.0004208,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01272892951965332,
+            "throughput_bps": 6863106.584502426
+        },
+        {
+            "start_time": 1743119768.0148532,
+            "end_time": 1743119768.0264292,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011575937271118164,
+            "throughput_bps": 7546689.132288427
+        },
+        {
+            "start_time": 1743119768.041211,
+            "end_time": 1743119768.0548673,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013656377792358398,
+            "throughput_bps": 6397011.07631069
+        },
+        {
+            "start_time": 1743119768.0693505,
+            "end_time": 1743119768.086323,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01697254180908203,
+            "throughput_bps": 5147137.121986852
+        },
+        {
+            "start_time": 1743119768.1002097,
+            "end_time": 1743119768.1114247,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011214971542358398,
+            "throughput_bps": 7789587.309254023
+        },
+        {
+            "start_time": 1743119768.1262,
+            "end_time": 1743119768.1470432,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.0208432674407959,
+            "throughput_bps": 4191281.441268316
+        },
+        {
+            "start_time": 1743119768.162147,
+            "end_time": 1743119768.1782503,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016103267669677734,
+            "throughput_bps": 5424985.89677534
+        },
+        {
+            "start_time": 1743119768.19212,
+            "end_time": 1743119768.2044299,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012309789657592773,
+            "throughput_bps": 7096790.638182487
+        },
+        {
+            "start_time": 1743119768.2190592,
+            "end_time": 1743119768.2274225,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00836324691772461,
+            "throughput_bps": 10445703.786988996
+        },
+        {
+            "start_time": 1743119768.2428896,
+            "end_time": 1743119768.253381,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010491371154785156,
+            "throughput_bps": 8326842.9560949
+        },
+        {
+            "start_time": 1743119768.2686973,
+            "end_time": 1743119768.2966487,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.027951478958129883,
+            "throughput_bps": 3125416.015762942
+        },
+        {
+            "start_time": 1743119768.3113112,
+            "end_time": 1743119768.3247676,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013456344604492188,
+            "throughput_bps": 6492104.844790928
+        },
+        {
+            "start_time": 1743119768.3402429,
+            "end_time": 1743119768.3585334,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01829051971435547,
+            "throughput_bps": 4776244.817769435
+        },
+        {
+            "start_time": 1743119768.3733876,
+            "end_time": 1743119768.3849096,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011522054672241211,
+            "throughput_bps": 7581981.034204482
+        },
+        {
+            "start_time": 1743119768.4004526,
+            "end_time": 1743119768.4143257,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013873100280761719,
+            "throughput_bps": 6297078.391420911
+        },
+        {
+            "start_time": 1743119768.4298234,
+            "end_time": 1743119768.4414241,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011600732803344727,
+            "throughput_bps": 7530558.75701338
+        },
+        {
+            "start_time": 1743119768.4567623,
+            "end_time": 1743119768.4683056,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01154327392578125,
+            "throughput_bps": 7568043.569068077
+        },
+        {
+            "start_time": 1743119768.483817,
+            "end_time": 1743119768.4919925,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008175373077392578,
+            "throughput_bps": 10685750.873140857
+        },
+        {
+            "start_time": 1743119768.5075889,
+            "end_time": 1743119768.5229108,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015321969985961914,
+            "throughput_bps": 5701616.703337742
+        },
+        {
+            "start_time": 1743119768.5371914,
+            "end_time": 1743119768.5494347,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012243270874023438,
+            "throughput_bps": 7135348.135223555
+        },
+        {
+            "start_time": 1743119768.5641344,
+            "end_time": 1743119768.5798924,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015758037567138672,
+            "throughput_bps": 5543837.525947892
+        },
+        {
+            "start_time": 1743119768.593822,
+            "end_time": 1743119768.6054192,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011597156524658203,
+            "throughput_bps": 7532880.996669545
+        },
+        {
+            "start_time": 1743119768.6198814,
+            "end_time": 1743119768.632077,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012195587158203125,
+            "throughput_bps": 7163246.743822333
+        },
+        {
+            "start_time": 1743119768.647448,
+            "end_time": 1743119768.6582925,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01084446907043457,
+            "throughput_bps": 8055719.411674178
+        },
+        {
+            "start_time": 1743119768.6733143,
+            "end_time": 1743119768.6819754,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008661031723022461,
+            "throughput_bps": 10086558.13692295
+        },
+        {
+            "start_time": 1743119768.697077,
+            "end_time": 1743119768.71019,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013113021850585938,
+            "throughput_bps": 6662079.953454546
+        },
+        {
+            "start_time": 1743119768.7251663,
+            "end_time": 1743119768.7353866,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01022028923034668,
+            "throughput_bps": 8547703.301840577
+        },
+        {
+            "start_time": 1743119768.7503982,
+            "end_time": 1743119768.7621138,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01171565055847168,
+            "throughput_bps": 7456692.18828222
+        },
+        {
+            "start_time": 1743119768.7767937,
+            "end_time": 1743119768.7894237,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012629985809326172,
+            "throughput_bps": 6916872.379657946
+        },
+        {
+            "start_time": 1743119768.8044012,
+            "end_time": 1743119768.820302,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015900850296020508,
+            "throughput_bps": 5494045.813503666
+        },
+        {
+            "start_time": 1743119768.8345556,
+            "end_time": 1743119768.8440819,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009526252746582031,
+            "throughput_bps": 9170447.428170988
+        },
+        {
+            "start_time": 1743119768.8593311,
+            "end_time": 1743119768.8795803,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.020249128341674805,
+            "throughput_bps": 4314259.780763208
+        },
+        {
+            "start_time": 1743119768.8953388,
+            "end_time": 1743119768.9074235,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012084722518920898,
+            "throughput_bps": 7228962.010771993
+        },
+        {
+            "start_time": 1743119768.9225442,
+            "end_time": 1743119768.9344246,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01188039779663086,
+            "throughput_bps": 7353289.131848284
+        },
+        {
+            "start_time": 1743119768.9554439,
+            "end_time": 1743119768.9723816,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.016937732696533203,
+            "throughput_bps": 5157715.118380676
+        },
+        {
+            "start_time": 1743119768.9929678,
+            "end_time": 1743119769.0015788,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008610963821411133,
+            "throughput_bps": 10145205.787856134
+        },
+        {
+            "start_time": 1743119769.0226245,
+            "end_time": 1743119769.0364132,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013788700103759766,
+            "throughput_bps": 6335622.599854757
+        },
+        {
+            "start_time": 1743119769.058666,
+            "end_time": 1743119769.0694315,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010765552520751953,
+            "throughput_bps": 8114771.613589051
+        },
+        {
+            "start_time": 1743119769.0891454,
+            "end_time": 1743119769.1015387,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01239323616027832,
+            "throughput_bps": 7049006.318462515
+        },
+        {
+            "start_time": 1743119769.123281,
+            "end_time": 1743119769.131471,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008189916610717773,
+            "throughput_bps": 10666775.274082268
+        },
+        {
+            "start_time": 1743119769.150303,
+            "end_time": 1743119769.1624248,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012121915817260742,
+            "throughput_bps": 7206781.610841217
+        },
+        {
+            "start_time": 1743119769.1781511,
+            "end_time": 1743119769.1889396,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010788440704345703,
+            "throughput_bps": 8097555.744530386
+        },
+        {
+            "start_time": 1743119769.2038517,
+            "end_time": 1743119769.216563,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012711286544799805,
+            "throughput_bps": 6872632.419394167
+        },
+        {
+            "start_time": 1743119769.238327,
+            "end_time": 1743119769.2581275,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.019800424575805664,
+            "throughput_bps": 4412026.604053029
+        },
+        {
+            "start_time": 1743119769.2722232,
+            "end_time": 1743119769.2873747,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015151500701904297,
+            "throughput_bps": 5765765.498662471
+        },
+        {
+            "start_time": 1743119769.3015795,
+            "end_time": 1743119769.3166237,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015044212341308594,
+            "throughput_bps": 5806884.270047544
+        },
+        {
+            "start_time": 1743119769.330889,
+            "end_time": 1743119769.3453794,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014490365982055664,
+            "throughput_bps": 6028833.233624562
+        },
+        {
+            "start_time": 1743119769.3596702,
+            "end_time": 1743119769.3703816,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010711431503295898,
+            "throughput_bps": 8155772.640950876
+        },
+        {
+            "start_time": 1743119769.3851593,
+            "end_time": 1743119769.3975046,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012345314025878906,
+            "throughput_bps": 7076369.205098494
+        },
+        {
+            "start_time": 1743119769.4195597,
+            "end_time": 1743119769.4303997,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01083993911743164,
+            "throughput_bps": 8059085.854044781
+        },
+        {
+            "start_time": 1743119769.4520864,
+            "end_time": 1743119769.4604428,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008356332778930664,
+            "throughput_bps": 10454346.698621929
+        },
+        {
+            "start_time": 1743119769.482486,
+            "end_time": 1743119769.4915967,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009110689163208008,
+            "throughput_bps": 9588736.750320572
+        },
+        {
+            "start_time": 1743119769.5068138,
+            "end_time": 1743119769.518284,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011470317840576172,
+            "throughput_bps": 7616179.535231761
+        },
+        {
+            "start_time": 1743119769.5332487,
+            "end_time": 1743119769.5564578,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.023209095001220703,
+            "throughput_bps": 3764041.639512666
+        },
+        {
+            "start_time": 1743119769.578248,
+            "end_time": 1743119769.590441,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012192964553833008,
+            "throughput_bps": 7164787.498093506
+        },
+        {
+            "start_time": 1743119769.6125414,
+            "end_time": 1743119769.6205158,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007974386215209961,
+            "throughput_bps": 10955075.117050856
+        },
+        {
+            "start_time": 1743119769.6363528,
+            "end_time": 1743119769.647425,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011072158813476562,
+            "throughput_bps": 7890060.237726098
+        },
+        {
+            "start_time": 1743119769.6629307,
+            "end_time": 1743119769.6709435,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008012771606445312,
+            "throughput_bps": 10902594.544156153
+        },
+        {
+            "start_time": 1743119769.6869745,
+            "end_time": 1743119769.69779,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01081538200378418,
+            "throughput_bps": 8077384.596256861
+        },
+        {
+            "start_time": 1743119769.7135317,
+            "end_time": 1743119769.7229936,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.00946187973022461,
+            "throughput_bps": 9232837.71203951
+        },
+        {
+            "start_time": 1743119769.7385952,
+            "end_time": 1743119769.7504134,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011818170547485352,
+            "throughput_bps": 7392007.04956727
+        },
+        {
+            "start_time": 1743119769.7658024,
+            "end_time": 1743119769.781381,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015578508377075195,
+            "throughput_bps": 5607725.584854838
+        },
+        {
+            "start_time": 1743119769.7963552,
+            "end_time": 1743119769.8084226,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012067317962646484,
+            "throughput_bps": 7239388.260955467
+        },
+        {
+            "start_time": 1743119769.8236568,
+            "end_time": 1743119769.8354182,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01176142692565918,
+            "throughput_bps": 7427670.175751556
+        },
+        {
+            "start_time": 1743119769.8505464,
+            "end_time": 1743119769.866417,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01587057113647461,
+            "throughput_bps": 5504527.798575849
+        },
+        {
+            "start_time": 1743119769.881095,
+            "end_time": 1743119769.8891325,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008037567138671875,
+            "throughput_bps": 10868960.531561462
+        },
+        {
+            "start_time": 1743119769.905162,
+            "end_time": 1743119769.9147148,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009552717208862305,
+            "throughput_bps": 9145041.990665635
+        },
+        {
+            "start_time": 1743119769.9304516,
+            "end_time": 1743119769.941429,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01097726821899414,
+            "throughput_bps": 7958264.137960992
+        },
+        {
+            "start_time": 1743119769.9570498,
+            "end_time": 1743119769.9654217,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008371829986572266,
+            "throughput_bps": 10434994.516147405
+        },
+        {
+            "start_time": 1743119769.9815326,
+            "end_time": 1743119769.9923801,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01084756851196289,
+            "throughput_bps": 8053417.676381379
+        },
+        {
+            "start_time": 1743119770.0078464,
+            "end_time": 1743119770.019426,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011579751968383789,
+            "throughput_bps": 7544203.039799049
+        },
+        {
+            "start_time": 1743119770.0348947,
+            "end_time": 1743119770.0427494,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007854700088500977,
+            "throughput_bps": 11122003.261192897
+        },
+        {
+            "start_time": 1743119770.0578852,
+            "end_time": 1743119770.0748928,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01700758934020996,
+            "throughput_bps": 5136530.419008901
+        },
+        {
+            "start_time": 1743119770.0898848,
+            "end_time": 1743119770.098432,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008547306060791016,
+            "throughput_bps": 10220764.224267783
+        },
+        {
+            "start_time": 1743119770.1142766,
+            "end_time": 1743119770.123985,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009708404541015625,
+            "throughput_bps": 8998388.935166994
+        },
+        {
+            "start_time": 1743119770.139733,
+            "end_time": 1743119770.1495802,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009847164154052734,
+            "throughput_bps": 8871589.69154036
+        },
+        {
+            "start_time": 1743119770.1650677,
+            "end_time": 1743119770.177425,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012357234954833984,
+            "throughput_bps": 7069542.686475014
+        },
+        {
+            "start_time": 1743119770.1927164,
+            "end_time": 1743119770.2044165,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011700153350830078,
+            "throughput_bps": 7466568.803032155
+        },
+        {
+            "start_time": 1743119770.219942,
+            "end_time": 1743119770.2324216,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012479543685913086,
+            "throughput_bps": 7000255.954759949
+        },
+        {
+            "start_time": 1743119770.247822,
+            "end_time": 1743119770.259425,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01160287857055664,
+            "throughput_bps": 7529166.100357539
+        },
+        {
+            "start_time": 1743119770.2744877,
+            "end_time": 1743119770.2827923,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008304595947265625,
+            "throughput_bps": 10519476.270096462
+        },
+        {
+            "start_time": 1743119770.2982383,
+            "end_time": 1743119770.3062532,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008014917373657227,
+            "throughput_bps": 10899675.683136508
+        },
+        {
+            "start_time": 1743119770.3214495,
+            "end_time": 1743119770.330059,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008609533309936523,
+            "throughput_bps": 10146891.458004486
+        },
+        {
+            "start_time": 1743119770.3452868,
+            "end_time": 1743119770.3566754,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011388540267944336,
+            "throughput_bps": 7670868.956392488
+        },
+        {
+            "start_time": 1743119770.3716013,
+            "end_time": 1743119770.3840392,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012437820434570312,
+            "throughput_bps": 7023738.641312682
+        },
+        {
+            "start_time": 1743119770.3985653,
+            "end_time": 1743119770.4133797,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.014814376831054688,
+            "throughput_bps": 5896974.337582078
+        },
+        {
+            "start_time": 1743119770.4275007,
+            "end_time": 1743119770.4354181,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007917404174804688,
+            "throughput_bps": 11033919.460370995
+        },
+        {
+            "start_time": 1743119770.450439,
+            "end_time": 1743119770.462423,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011984109878540039,
+            "throughput_bps": 7289652.7890182035
+        },
+        {
+            "start_time": 1743119770.477032,
+            "end_time": 1743119770.4883811,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011349201202392578,
+            "throughput_bps": 7697458.036216966
+        },
+        {
+            "start_time": 1743119770.50317,
+            "end_time": 1743119770.5144403,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011270284652709961,
+            "throughput_bps": 7751357.014660151
+        },
+        {
+            "start_time": 1743119770.5292306,
+            "end_time": 1743119770.5404243,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01119375228881836,
+            "throughput_bps": 7804353.513099042
+        },
+        {
+            "start_time": 1743119770.5553172,
+            "end_time": 1743119770.5674314,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012114286422729492,
+            "throughput_bps": 7211320.33299876
+        },
+        {
+            "start_time": 1743119770.583208,
+            "end_time": 1743119770.598398,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015189886093139648,
+            "throughput_bps": 5751195.200828742
+        },
+        {
+            "start_time": 1743119770.6133342,
+            "end_time": 1743119770.629298,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01596379280090332,
+            "throughput_bps": 5472383.730453873
+        },
+        {
+            "start_time": 1743119770.6497629,
+            "end_time": 1743119770.669347,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.019584178924560547,
+            "throughput_bps": 4460743.559202357
+        },
+        {
+            "start_time": 1743119770.6841583,
+            "end_time": 1743119770.6964254,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012267112731933594,
+            "throughput_bps": 7121480.164813807
+        },
+        {
+            "start_time": 1743119770.711886,
+            "end_time": 1743119770.7211428,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009256839752197266,
+            "throughput_bps": 9437346.04234276
+        },
+        {
+            "start_time": 1743119770.7363992,
+            "end_time": 1743119770.7459605,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009561300277709961,
+            "throughput_bps": 9136832.592075406
+        },
+        {
+            "start_time": 1743119770.760938,
+            "end_time": 1743119770.772924,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011986017227172852,
+            "throughput_bps": 7288492.77823086
+        },
+        {
+            "start_time": 1743119770.78795,
+            "end_time": 1743119770.7974274,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.009477376937866211,
+            "throughput_bps": 9217740.369802017
+        },
+        {
+            "start_time": 1743119770.8125417,
+            "end_time": 1743119770.8214266,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008884906768798828,
+            "throughput_bps": 9832404.804379327
+        },
+        {
+            "start_time": 1743119770.8369899,
+            "end_time": 1743119770.8483813,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011391401290893555,
+            "throughput_bps": 7668942.368823123
+        },
+        {
+            "start_time": 1743119770.8636203,
+            "end_time": 1743119770.8754263,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011806011199951172,
+            "throughput_bps": 7399620.288379983
+        },
+        {
+            "start_time": 1743119770.8909435,
+            "end_time": 1743119770.9013815,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010437965393066406,
+            "throughput_bps": 8369447.177706716
+        },
+        {
+            "start_time": 1743119770.9170396,
+            "end_time": 1743119770.9283812,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011341571807861328,
+            "throughput_bps": 7702636.061383225
+        },
+        {
+            "start_time": 1743119770.9440973,
+            "end_time": 1743119770.9524293,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008332014083862305,
+            "throughput_bps": 10484859.857498499
+        },
+        {
+            "start_time": 1743119770.9683936,
+            "end_time": 1743119770.9842613,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01586771011352539,
+            "throughput_bps": 5505520.290891606
+        },
+        {
+            "start_time": 1743119770.9988446,
+            "end_time": 1743119771.0114124,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.012567758560180664,
+            "throughput_bps": 6951120.168459393
+        },
+        {
+            "start_time": 1743119771.0264547,
+            "end_time": 1743119771.0384235,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011968851089477539,
+            "throughput_bps": 7298946.185135754
+        },
+        {
+            "start_time": 1743119771.053952,
+            "end_time": 1743119771.0624259,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008473873138427734,
+            "throughput_bps": 10309335.362106804
+        },
+        {
+            "start_time": 1743119771.0787983,
+            "end_time": 1743119771.0897908,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.01099252700805664,
+            "throughput_bps": 7947217.226391359
+        },
+        {
+            "start_time": 1743119771.1046681,
+            "end_time": 1743119771.1203852,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015717029571533203,
+            "throughput_bps": 5558302.197142077
+        },
+        {
+            "start_time": 1743119771.1346552,
+            "end_time": 1743119771.146247,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.011591672897338867,
+            "throughput_bps": 7536444.547193484
+        },
+        {
+            "start_time": 1743119771.1614375,
+            "end_time": 1743119771.1753829,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.013945341110229492,
+            "throughput_bps": 6264457.736061959
+        },
+        {
+            "start_time": 1743119771.190075,
+            "end_time": 1743119771.1984267,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.008351802825927734,
+            "throughput_bps": 10460017.055095632
+        },
+        {
+            "start_time": 1743119771.213653,
+            "end_time": 1743119771.2244318,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.010778665542602539,
+            "throughput_bps": 8104899.410294411
+        },
+        {
+            "start_time": 1743119771.2393546,
+            "end_time": 1743119771.25513,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.015775442123413086,
+            "throughput_bps": 5537721.1818580255
+        },
+        {
+            "start_time": 1743119771.2610757,
+            "end_time": 1743119771.268578,
+            "size_bytes": 87360,
+            "completed": true,
+            "duration": 0.007502317428588867,
+            "throughput_bps": 11644401.990656879
+        }
+    ]
+}
