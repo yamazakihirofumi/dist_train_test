@@ -25,4 +25,12 @@ By default the lo will be chosen
     pip install -r requirements.txt
 
     # To remove one env can run 
-    # conda remove --name your_environment_name --all
+    # conda remove --name bamos --all
+
+
+#To test if a port is opened
+nc -vz 192.168.1.71  29500
+
+
+python distributed_mnist.py --rank 0 --world-size 2 --master-addr 192.168.1.71 --interface enp6s0
+python distributed_mnist.py --rank 1 --world-size 2 --master-addr 192.168.1.71 --interface enp6s0

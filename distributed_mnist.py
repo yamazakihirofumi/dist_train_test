@@ -6,8 +6,6 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 import datetime
-#Network function here
-import utils
 
 # ----- Model Definition -----
 class Net(nn.Module):
@@ -26,36 +24,30 @@ class Net(nn.Module):
         x = self.fc2(x)
         return F.log_softmax(x, dim=1)
 
-
 # ----- Setup and Cleanup Functions -----
-#Here by set it to 127.0.0.1 allow local worker and master
-def setup(rank, world_size, master_addr='127.0.0.1', backend='gloo', interface=None):
+# Add this section to the setup function
+def setup(rank, world_size, master_addr='127.0.0.1', backend='gloo'):
     """Initialize distributed training with connection status"""
     os.environ['MASTER_ADDR'] = master_addr
     os.environ['MASTER_PORT'] = os.getenv('MASTER_PORT', '29500')
-    
-    # Explicitly set network interface for Gloo,here call the thing
-    network_interface = utils.get_network_interface(interface)
-    if rank == 0:
-        network_interface = "wlp13s0" #On Master
-    else:
-        network_interface = "enp6s0" #On Worker
 
-    os.environ['GLOO_SOCKET_IFNAME'] = network_interface  # Master interface
+    os.environ['GLOO_SOCKET_FAMILY'] = 'inet'  # Use IPv4
+    os.environ['GLOO_SOCKET_IFNAME'] = 'enp6s0'  # Master interface
+    print(f"Master setting GLOO_SOCKET_IFNAME={os.environ['GLOO_SOCKET_IFNAME']}")
+    
     # Print connection status
     if rank == 0:
-        print(f"Using network interface: {network_interface}")
         print(f"\nMaster node ready at {os.environ['MASTER_ADDR']}:{os.environ['MASTER_PORT']}")
         print(f"Using backend: {backend}")
         print("Waiting for worker nodes to connect...")
     else:
-        print(f"Using network interface: {network_interface}")
         print(f"Worker node (rank {rank}) attempting to connect...")
     
     # Initialize process group
     try:
         # Use explicit store for better connection
         store = dist.TCPStore(master_addr, 29500, world_size, rank == 0, timeout=datetime.timedelta(seconds=120).total_seconds())
+        
         dist.init_process_group(
             backend=backend,
             store=store,
@@ -78,10 +70,10 @@ def cleanup():
     dist.destroy_process_group()
 
 # ----- Training Function -----    
-def run(rank, world_size, master_addr='127.0.0.1', backend='gloo', interface=None):
+def run(rank, world_size, master_addr='127.0.0.1', backend='gloo'):
     """Distributed training function"""
-    print(f"Rank {rank}: Initializing connection to master at {master_addr}")
-    setup(rank, world_size, master_addr, backend, interface)
+    print(f"Rank {rank}: Initializing connection to master at {master_addr}...")
+    setup(rank, world_size, master_addr, backend)
     
     # Select device based on rank and available devices
     if backend == 'nccl' and torch.cuda.is_available():
@@ -179,9 +171,6 @@ if __name__ == "__main__":
     parser.add_argument('--master-addr', type=str, default='127.0.0.1', help='Master node address')
     parser.add_argument('--backend', type=str, default='gloo', choices=['gloo', 'nccl'], 
                         help='Backend for distributed training (gloo or nccl)')
-    parser.add_argument('--interface', type=str, default=None, 
-                        help='Network interface to use (default: auto-detect)')
     args = parser.parse_args()
     
-    # Pass the interface parameter to your run function
-    run(args.rank, args.world_size, args.master_addr, args.backend, args.interface)
+    run(args.rank, args.world_size, args.master_addr, args.backend)
