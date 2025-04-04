@@ -26,6 +26,8 @@ WORLD_SIZE=2  # Total number of nodes (master + workers)
 RANK=${2:-1}  # Default to rank 1 if not specified
 BACKEND="gloo"  # Use gloo backend
 
+INTERFACE=$3   # Explicitly pass "None" for auto-detection if not specified
+
 # Print configuration
 echo "Starting worker node with configuration:"
 echo "Master address: $MASTER_ADDR"
@@ -38,11 +40,17 @@ echo ""
 # Export environment variables
 export MASTER_ADDR
 export MASTER_PORT
-export GLOO_SOCKET_IFNAME=wlp4s0  # Explicitly set interface for worker
 
-# Run the training script for the worker
-echo "Starting worker process..."
-python distributed_mnist.py --rank $RANK --world-size $WORLD_SIZE --master-addr $MASTER_ADDR --backend $BACKEND
+# Check if interface is specified and not "None"
+if [ -n "$INTERFACE" ] && [ "$INTERFACE" != "None" ]; then
+    echo "Using network interface: $INTERFACE"
+    exec python distributed_mnist.py --rank $RANK --world-size $WORLD_SIZE \
+        --master-addr $MASTER_ADDR --backend $BACKEND --interface $INTERFACE
+else
+    echo "Using auto-detected network interface"
+    exec python distributed_mnist.py --rank $RANK --world-size $WORLD_SIZE \
+        --master-addr $MASTER_ADDR --backend $BACKEND
+fi
 
 echo "Worker process completed."
 

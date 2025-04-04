@@ -29,7 +29,7 @@ class Net(nn.Module):
 
 # ----- Setup and Cleanup Functions -----
 #Here by set it to 127.0.0.1 allow local worker and master
-def setup(rank, world_size, master_addr='127.0.0.1', backend='gloo'):
+def setup(rank, world_size, master_addr='127.0.0.1', backend='gloo', interface=None):
     """Initialize distributed training with connection status"""
     os.environ['MASTER_ADDR'] = master_addr
     os.environ['MASTER_PORT'] = os.getenv('MASTER_PORT', '29500')
@@ -73,10 +73,10 @@ def cleanup():
     dist.destroy_process_group()
 
 # ----- Training Function -----    
-def run(rank, world_size, master_addr='127.0.0.1', backend='gloo'):
+def run(rank, world_size, master_addr='127.0.0.1', backend='gloo', interface=None):
     """Distributed training function"""
-    print(f"Rank {rank}: Initializing connection to master at {master_addr}...")
-    setup(rank, world_size, master_addr, backend)
+    print(f"Rank {rank}: Initializing connection to master at {master_addr}")
+    setup(rank, world_size, master_addr, backend, interface)
     
     # Select device based on rank and available devices
     if backend == 'nccl' and torch.cuda.is_available():
@@ -174,6 +174,9 @@ if __name__ == "__main__":
     parser.add_argument('--master-addr', type=str, default='127.0.0.1', help='Master node address')
     parser.add_argument('--backend', type=str, default='gloo', choices=['gloo', 'nccl'], 
                         help='Backend for distributed training (gloo or nccl)')
+    parser.add_argument('--interface', type=str, default=None, 
+                        help='Network interface to use (default: auto-detect)')
     args = parser.parse_args()
     
-    run(args.rank, args.world_size, args.master_addr, args.backend)
+    # Pass the interface parameter to your run function
+    run(args.rank, args.world_size, args.master_addr, args.backend, args.interface)
