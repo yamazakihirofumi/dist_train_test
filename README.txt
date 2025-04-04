@@ -17,3 +17,12 @@ By default the lo will be chosen
         --master-addr 192.168.1.70 --backend gloo --interface enp6s0
 
 
+
+
+## To install the required environment
+    conda create --name bamos
+    conda activate bamos
+    pip install -r requirements.txt
+
+    # To remove one env can run 
+    # conda remove --name your_environment_name --all
