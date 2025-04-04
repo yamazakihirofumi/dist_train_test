@@ -36,6 +36,11 @@ def setup(rank, world_size, master_addr='127.0.0.1', backend='gloo', interface=N
     
     # Explicitly set network interface for Gloo,here call the thing
     network_interface = utils.get_network_interface(interface)
+    if rank == 0:
+        network_interface = wlp13s0#On Master
+    else:
+        network_interface = enp6s0#On Worker
+        
     os.environ['GLOO_SOCKET_IFNAME'] = network_interface  # Master interface
     # Print connection status
     if rank == 0:
