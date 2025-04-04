@@ -6,6 +6,8 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 import datetime
+#Network function here
+import utils
 
 # ----- Model Definition -----
 class Net(nn.Module):
@@ -24,34 +26,31 @@ class Net(nn.Module):
         x = self.fc2(x)
         return F.log_softmax(x, dim=1)
 
+
 # ----- Setup and Cleanup Functions -----
-# Add this section to the setup function
+#Here by set it to 127.0.0.1 allow local worker and master
 def setup(rank, world_size, master_addr='127.0.0.1', backend='gloo'):
     """Initialize distributed training with connection status"""
     os.environ['MASTER_ADDR'] = master_addr
     os.environ['MASTER_PORT'] = os.getenv('MASTER_PORT', '29500')
     
-    # Explicitly set network interface for Gloo
-    if rank == 0:
-        os.environ['GLOO_SOCKET_IFNAME'] = 'wlo1'  # Master interface
-        print(f"Master setting GLOO_SOCKET_IFNAME=wlo1")
-    else:
-        os.environ['GLOO_SOCKET_IFNAME'] = 'wlp4s0'  # Worker interface
-        print(f"Worker setting GLOO_SOCKET_IFNAME=wlp4s0")
-    
+    # Explicitly set network interface for Gloo,here call the thing
+    network_interface = utils.get_network_interface(interface)
+    os.environ['GLOO_SOCKET_IFNAME'] = network_interface  # Master interface
     # Print connection status
     if rank == 0:
+        print(f"Using network interface: {network_interface}")
         print(f"\nMaster node ready at {os.environ['MASTER_ADDR']}:{os.environ['MASTER_PORT']}")
         print(f"Using backend: {backend}")
         print("Waiting for worker nodes to connect...")
     else:
+        print(f"Using network interface: {network_interface}")
         print(f"Worker node (rank {rank}) attempting to connect...")
     
     # Initialize process group
     try:
         # Use explicit store for better connection
         store = dist.TCPStore(master_addr, 29500, world_size, rank == 0, timeout=datetime.timedelta(seconds=120).total_seconds())
-        
         dist.init_process_group(
             backend=backend,
             store=store,
