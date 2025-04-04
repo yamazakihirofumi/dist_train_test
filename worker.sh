@@ -1,5 +1,17 @@
 #!/bin/bash
 
+# Trap function for clean exit
+cleanup() {
+    echo "Caught interrupt signal, shutting down worker..."
+    # Kill any child processes (including Python)
+    pkill -P $$
+    exit 1
+}
+
+# Set up trap for SIGINT (Ctrl+C) and SIGTERM
+trap cleanup SIGINT SIGTERM
+
+
 # Check if master address is provided
 if [ $# -lt 1 ]; then
     echo "Usage: $0 <master_address> [rank]"
@@ -33,3 +45,4 @@ echo "Starting worker process..."
 python distributed_mnist.py --rank $RANK --world-size $WORLD_SIZE --master-addr $MASTER_ADDR --backend $BACKEND
 
 echo "Worker process completed."
+
