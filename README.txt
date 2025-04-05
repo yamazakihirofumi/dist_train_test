@@ -25,7 +25,7 @@ By default the lo will be chosen
     pip install -r requirements.txt
 
     # To remove one env can run 
-    # conda remove --name bamos --all
+    #
 
 
 #To test if a port is opened
@@ -36,3 +36,18 @@ nc -vz 192.168.1.71  29500
 # os.environ['GLOO_SOCKET_IFNAME'] = 'enp6s0'
 python distributed_mnist.py --rank 0 --world-size 2 --master-addr 192.168.1.71 --interface enp6s0
 python distributed_mnist.py --rank 1 --world-size 2 --master-addr 192.168.1.71 --interface enp6s0
+
+
+
+
+
+## ==== How to migrate and start on new machine ====
+    # On machine 1 
+        pip freeze > requirements.txt
+
+    # On machine 2 
+        conda create -n bamos python=3.9 -y
+        conda activate bamos
+        pip install -r requirements.txt
+        
+        #conda  conda remove --name bamos --all # To remove the old env
