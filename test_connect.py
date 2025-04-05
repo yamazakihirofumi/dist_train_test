@@ -15,11 +15,11 @@ def test_connection(rank, world_size, master_addr, worker_addr=None):
     
     # Explicitly set network interface for Gloo
     if rank == 0: 
-        os.environ['GLOO_SOCKET_IFNAME'] = 'wlo1'  # Explicitly use WiFi interface on worker
-        print(f"Worker setting GLOO_SOCKET_IFNAME=wlo1")
+        os.environ['GLOO_SOCKET_IFNAME'] = 'enp6s0'  # Explicitly use WiFi interface on worker
+        print(f"Worker setting GLOO_SOCKET_IFNAME={os.environ['GLOO_SOCKET_IFNAME']}")
     elif rank == 1:
         os.environ['GLOO_SOCKET_IFNAME'] = 'wlp4s0'  # Explicitly use WiFi interface on worker
-        print(f"Worker setting GLOO_SOCKET_IFNAME=wlp4s0")
+        print(f"Worker setting GLOO_SOCKET_IFNAME={os.environ['GLOO_SOCKET_IFNAME']}")
     else:
         # Master can set its own appropriate interface
         pass
